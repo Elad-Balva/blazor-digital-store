@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Client",
+    "Projects": [
+      {
+        "Path": "Clients.API\\Clients.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Clients.Blazor\\Clients.Blazor.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

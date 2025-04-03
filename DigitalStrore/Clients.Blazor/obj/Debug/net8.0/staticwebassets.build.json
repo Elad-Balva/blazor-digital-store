@@ -1,0 +1,1155 @@
+{
+  "Version": 1,
+  "Hash": "EfM0LOcFgU9pqFroM3//kErIS5IcQ/AX/Gidrh3AhHg=",
+  "Source": "Clients.Blazor",
+  "BasePath": "_content/Clients.Blazor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Clients.Blazor\\wwwroot",
+      "Source": "Clients.Blazor",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "BasePath": "_content/Clients.Blazor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "Clients.Blazor#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "y2ljanbogi",
+      "Integrity": "hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css"
+    },
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "Clients.Blazor#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "y2ljanbogi",
+      "Integrity": "hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zoi9sj1w72",
+      "Integrity": "456UdAQ9LZcol5OqpHw4d7CYemXtl3qHAn/QJQtTc2k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "Pictures/Products/Iphone1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5mly3i0sgu",
+      "Integrity": "7Qxcfqz7NVs5/qVlPsXEIptEBTBve8WIM0T8IBEvN2Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pictures\\Products\\Iphone1.jpg"
+    },
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "Pictures/Products/Iphone1_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5mly3i0sgu",
+      "Integrity": "7Qxcfqz7NVs5/qVlPsXEIptEBTBve8WIM0T8IBEvN2Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pictures\\Products\\Iphone1_1.jpg"
+    },
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "Pictures/Products/Iphone2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vh27co5vaa",
+      "Integrity": "YwT/IKlh4TIJzUaOPjs1Gzr9XQ1bxEZNbxClKRWVdno=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pictures\\Products\\Iphone2.jpg"
+    },
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "Pictures/Products/Iphone3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "th0nw8s1z6",
+      "Integrity": "QaIYD0EtP74wyZQe1C3lcW0bHgIWFXrUXStT2j4Gu4w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pictures\\Products\\Iphone3.jpg"
+    },
+    {
+      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
+      "SourceId": "Clients.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "BasePath": "_content/Clients.Blazor",
+      "RelativePath": "Pictures/Products/Iphone4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8oaxxjxkhm",
+      "Integrity": "uE4pwOqRVka7oWI1A57ZQVOtwK1PvGXUkCGGJH+pTtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pictures\\Products\\Iphone4.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"456UdAQ9LZcol5OqpHw4d7CYemXtl3qHAn/QJQtTc2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 17:57:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-456UdAQ9LZcol5OqpHw4d7CYemXtl3qHAn/QJQtTc2k="
+        }
+      ]
+    },
+    {
+      "Route": "app.zoi9sj1w72.css",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"456UdAQ9LZcol5OqpHw4d7CYemXtl3qHAn/QJQtTc2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 17:57:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zoi9sj1w72"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-456UdAQ9LZcol5OqpHw4d7CYemXtl3qHAn/QJQtTc2k="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 16:04:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 16:04:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 16:04:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 16:04:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "Clients.Blazor.bundle.scp.css",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 12:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w="
+        }
+      ]
+    },
+    {
+      "Route": "Clients.Blazor.styles.css",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 12:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w="
+        }
+      ]
+    },
+    {
+      "Route": "Clients.Blazor.y2ljanbogi.bundle.scp.css",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 12:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y2ljanbogi"
+        },
+        {
+          "Name": "label",
+          "Value": "Clients.Blazor.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w="
+        }
+      ]
+    },
+    {
+      "Route": "Clients.Blazor.y2ljanbogi.styles.css",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 12:23:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y2ljanbogi"
+        },
+        {
+          "Name": "label",
+          "Value": "Clients.Blazor.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 16:04:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 16:04:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "Pictures/Products/Iphone1.5mly3i0sgu.jpg",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Qxcfqz7NVs5/qVlPsXEIptEBTBve8WIM0T8IBEvN2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 13:17:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5mly3i0sgu"
+        },
+        {
+          "Name": "label",
+          "Value": "Pictures/Products/Iphone1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Qxcfqz7NVs5/qVlPsXEIptEBTBve8WIM0T8IBEvN2Y="
+        }
+      ]
+    },
+    {
+      "Route": "Pictures/Products/Iphone1.jpg",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Qxcfqz7NVs5/qVlPsXEIptEBTBve8WIM0T8IBEvN2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 13:17:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Qxcfqz7NVs5/qVlPsXEIptEBTBve8WIM0T8IBEvN2Y="
+        }
+      ]
+    },
+    {
+      "Route": "Pictures/Products/Iphone1_1.5mly3i0sgu.jpg",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Qxcfqz7NVs5/qVlPsXEIptEBTBve8WIM0T8IBEvN2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 11:43:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5mly3i0sgu"
+        },
+        {
+          "Name": "label",
+          "Value": "Pictures/Products/Iphone1_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Qxcfqz7NVs5/qVlPsXEIptEBTBve8WIM0T8IBEvN2Y="
+        }
+      ]
+    },
+    {
+      "Route": "Pictures/Products/Iphone1_1.jpg",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Qxcfqz7NVs5/qVlPsXEIptEBTBve8WIM0T8IBEvN2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 11:43:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Qxcfqz7NVs5/qVlPsXEIptEBTBve8WIM0T8IBEvN2Y="
+        }
+      ]
+    },
+    {
+      "Route": "Pictures/Products/Iphone2.jpg",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YwT/IKlh4TIJzUaOPjs1Gzr9XQ1bxEZNbxClKRWVdno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 17:14:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YwT/IKlh4TIJzUaOPjs1Gzr9XQ1bxEZNbxClKRWVdno="
+        }
+      ]
+    },
+    {
+      "Route": "Pictures/Products/Iphone2.vh27co5vaa.jpg",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YwT/IKlh4TIJzUaOPjs1Gzr9XQ1bxEZNbxClKRWVdno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 17:14:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vh27co5vaa"
+        },
+        {
+          "Name": "label",
+          "Value": "Pictures/Products/Iphone2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YwT/IKlh4TIJzUaOPjs1Gzr9XQ1bxEZNbxClKRWVdno="
+        }
+      ]
+    },
+    {
+      "Route": "Pictures/Products/Iphone3.jpg",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "184902"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QaIYD0EtP74wyZQe1C3lcW0bHgIWFXrUXStT2j4Gu4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 17:16:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QaIYD0EtP74wyZQe1C3lcW0bHgIWFXrUXStT2j4Gu4w="
+        }
+      ]
+    },
+    {
+      "Route": "Pictures/Products/Iphone3.th0nw8s1z6.jpg",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "184902"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QaIYD0EtP74wyZQe1C3lcW0bHgIWFXrUXStT2j4Gu4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 17:16:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "th0nw8s1z6"
+        },
+        {
+          "Name": "label",
+          "Value": "Pictures/Products/Iphone3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QaIYD0EtP74wyZQe1C3lcW0bHgIWFXrUXStT2j4Gu4w="
+        }
+      ]
+    },
+    {
+      "Route": "Pictures/Products/Iphone4.8oaxxjxkhm.jpg",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uE4pwOqRVka7oWI1A57ZQVOtwK1PvGXUkCGGJH+pTtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 17:16:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8oaxxjxkhm"
+        },
+        {
+          "Name": "label",
+          "Value": "Pictures/Products/Iphone4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uE4pwOqRVka7oWI1A57ZQVOtwK1PvGXUkCGGJH+pTtw="
+        }
+      ]
+    },
+    {
+      "Route": "Pictures/Products/Iphone4.jpg",
+      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uE4pwOqRVka7oWI1A57ZQVOtwK1PvGXUkCGGJH+pTtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 17:16:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uE4pwOqRVka7oWI1A57ZQVOtwK1PvGXUkCGGJH+pTtw="
+        }
+      ]
+    }
+  ]
+}

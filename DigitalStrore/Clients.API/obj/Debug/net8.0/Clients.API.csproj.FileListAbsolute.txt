@@ -1,0 +1,184 @@
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\appsettings.json
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.exe
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.deps.json
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.runtimeconfig.json
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.csproj.AssemblyReference.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.AssemblyInfoInputs.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.AssemblyInfo.cs
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.csproj.CoreCompileInputs.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.Clients.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.build.Clients.API.props
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Clients.API.props
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Clients.API.props
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\scopedcss\bundle\Clients.API.styles.css
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients..E754C931.Up2Date
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\refint\Clients.API.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.genruntimeconfig.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.API\obj\Debug\net8.0\ref\Clients.API.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Dapper.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Data.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Data.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\appsettings.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.staticwebassets.endpoints.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.exe
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.deps.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.runtimeconfig.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Dapper.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Data.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Data.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.AssemblyInfo.cs
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\scopedcss\bundle\Clients.API.styles.css
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.Clients.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.Clients.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.build.Clients.API.props
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Clients.API.props
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Clients.API.props
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients..E754C931.Up2Date
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\refint\Clients.API.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.genruntimeconfig.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\ref\Clients.API.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\appsettings.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.staticwebassets.endpoints.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.exe
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.deps.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.runtimeconfig.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.API.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Dapper.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Data.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Data.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.csproj.AssemblyReference.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.AssemblyInfoInputs.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.AssemblyInfo.cs
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.csproj.CoreCompileInputs.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\scopedcss\bundle\Clients.API.styles.css
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.Clients.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.Clients.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.build.Clients.API.props
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Clients.API.props
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Clients.API.props
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients..E754C931.Up2Date
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\refint\Clients.API.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\Clients.API.genruntimeconfig.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.API\obj\Debug\net8.0\ref\Clients.API.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\appsettings.json
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Clients.API.staticwebassets.endpoints.json
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Clients.API.exe
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Clients.API.deps.json
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Clients.API.runtimeconfig.json
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Clients.API.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Clients.API.pdb
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Dapper.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Clients.Data.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Clients.Model.dll
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Clients.Data.pdb
+C:\Projects\DigitalStrore\Clients.API\bin\Debug\net8.0\Clients.Model.pdb
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients.API.csproj.AssemblyReference.cache
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients.API.AssemblyInfoInputs.cache
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients.API.AssemblyInfo.cs
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients.API.csproj.CoreCompileInputs.cache
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\scopedcss\bundle\Clients.API.styles.css
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.Clients.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.Clients.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.build.Clients.API.props
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Clients.API.props
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Clients.API.props
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients..E754C931.Up2Date
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients.API.dll
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\refint\Clients.API.dll
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients.API.pdb
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\Clients.API.genruntimeconfig.cache
+C:\Projects\DigitalStrore\Clients.API\obj\Debug\net8.0\ref\Clients.API.dll

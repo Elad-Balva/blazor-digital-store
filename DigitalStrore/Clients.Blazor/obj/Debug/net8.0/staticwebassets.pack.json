@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Clients.Blazor.y2ljanbogi.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Products\\Iphone1.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Products\\Iphone1_1.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Products\\Iphone2.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Products\\Iphone3.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Products\\Iphone4.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Clients.Blazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Clients.Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Clients.Blazor.props",
+      "PackagePath": "build\\Clients.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Clients.Blazor.props",
+      "PackagePath": "buildMultiTargeting\\Clients.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Clients.Blazor.props",
+      "PackagePath": "buildTransitive\\Clients.Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,60 @@
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Data.deps.json
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Data.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Data.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.csproj.AssemblyReference.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.AssemblyInfoInputs.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.AssemblyInfo.cs
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.csproj.CoreCompileInputs.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients..AFFD04A9.Up2Date
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\obj\Debug\net8.0\refint\Clients.Data.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.Data\obj\Debug\net8.0\ref\Clients.Data.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Data.deps.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Data.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Data.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.AssemblyInfo.cs
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients..AFFD04A9.Up2Date
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\refint\Clients.Data.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\ref\Clients.Data.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Data.deps.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Data.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Data.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.csproj.AssemblyReference.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.AssemblyInfoInputs.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.AssemblyInfo.cs
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients..AFFD04A9.Up2Date
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\refint\Clients.Data.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\Clients.Data.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Data\obj\Debug\net8.0\ref\Clients.Data.dll
+C:\Projects\DigitalStrore\Clients.Data\bin\Debug\net8.0\Clients.Data.deps.json
+C:\Projects\DigitalStrore\Clients.Data\bin\Debug\net8.0\Clients.Data.dll
+C:\Projects\DigitalStrore\Clients.Data\bin\Debug\net8.0\Clients.Data.pdb
+C:\Projects\DigitalStrore\Clients.Data\bin\Debug\net8.0\Clients.Model.dll
+C:\Projects\DigitalStrore\Clients.Data\bin\Debug\net8.0\Clients.Model.pdb
+C:\Projects\DigitalStrore\Clients.Data\obj\Debug\net8.0\Clients.Data.csproj.AssemblyReference.cache
+C:\Projects\DigitalStrore\Clients.Data\obj\Debug\net8.0\Clients.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DigitalStrore\Clients.Data\obj\Debug\net8.0\Clients.Data.AssemblyInfoInputs.cache
+C:\Projects\DigitalStrore\Clients.Data\obj\Debug\net8.0\Clients.Data.AssemblyInfo.cs
+C:\Projects\DigitalStrore\Clients.Data\obj\Debug\net8.0\Clients.Data.csproj.CoreCompileInputs.cache
+C:\Projects\DigitalStrore\Clients.Data\obj\Debug\net8.0\Clients..AFFD04A9.Up2Date
+C:\Projects\DigitalStrore\Clients.Data\obj\Debug\net8.0\Clients.Data.dll
+C:\Projects\DigitalStrore\Clients.Data\obj\Debug\net8.0\refint\Clients.Data.dll
+C:\Projects\DigitalStrore\Clients.Data\obj\Debug\net8.0\Clients.Data.pdb
+C:\Projects\DigitalStrore\Clients.Data\obj\Debug\net8.0\ref\Clients.Data.dll

@@ -1,0 +1,44 @@
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\bin\Debug\net8.0\Clients.Model.deps.json
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyInfoInputs.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyInfo.cs
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.csproj.CoreCompileInputs.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\obj\Debug\net8.0\refint\Clients.Model.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.Model\obj\Debug\net8.0\ref\Clients.Model.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\bin\Debug\net8.0\Clients.Model.deps.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyInfo.cs
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\refint\Clients.Model.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\ref\Clients.Model.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\bin\Debug\net8.0\Clients.Model.deps.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyInfoInputs.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyInfo.cs
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.csproj.CoreCompileInputs.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\refint\Clients.Model.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\Clients.Model.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Model\obj\Debug\net8.0\ref\Clients.Model.dll
+C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.dll
+C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.pdb
+C:\Projects\DigitalStrore\Clients.Model\bin\Debug\net8.0\Clients.Model.deps.json
+C:\Projects\DigitalStrore\Clients.Model\bin\Debug\net8.0\Clients.Model.dll
+C:\Projects\DigitalStrore\Clients.Model\bin\Debug\net8.0\Clients.Model.pdb
+C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyInfoInputs.cache
+C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyInfo.cs
+C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.csproj.CoreCompileInputs.cache
+C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\refint\Clients.Model.dll
+C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\ref\Clients.Model.dll

@@ -1,0 +1,176 @@
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\appsettings.json
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.staticwebassets.runtime.json
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.exe
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.deps.json
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.runtimeconfig.json
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.csproj.AssemblyReference.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.AssemblyInfoInputs.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.AssemblyInfo.cs
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.csproj.CoreCompileInputs.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.Clients.Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.build.Clients.Blazor.props
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Clients.Blazor.props
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Clients.Blazor.props
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\scopedcss\bundle\Clients.Blazor.styles.css
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\scopedcss\projectbundle\Clients.Blazor.bundle.scp.css
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients..71CB0E6E.Up2Date
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\refint\Clients.Blazor.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.pdb
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.genruntimeconfig.cache
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\obj\Debug\net8.0\ref\Clients.Blazor.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Dapper.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Data.dll
+C:\Users\maora\source\repos\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Data.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\appsettings.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.staticwebassets.runtime.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.staticwebassets.endpoints.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.exe
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.deps.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.runtimeconfig.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Dapper.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Data.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Data.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.AssemblyInfo.cs
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\scopedcss\bundle\Clients.Blazor.styles.css
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\scopedcss\projectbundle\Clients.Blazor.bundle.scp.css
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.Clients.Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.Clients.Blazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.build.Clients.Blazor.props
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Clients.Blazor.props
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Clients.Blazor.props
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients..71CB0E6E.Up2Date
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\refint\Clients.Blazor.dll
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.pdb
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.genruntimeconfig.cache
+C:\Users\Admin\Documents\WebApp_ClientsV11\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\ref\Clients.Blazor.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\appsettings.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.staticwebassets.endpoints.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.staticwebassets.runtime.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.exe
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.deps.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.runtimeconfig.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Dapper.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Data.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Model.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Data.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\bin\Debug\net8.0\Clients.Model.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.csproj.AssemblyReference.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.AssemblyInfoInputs.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.AssemblyInfo.cs
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.csproj.CoreCompileInputs.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\scopedcss\bundle\Clients.Blazor.styles.css
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\scopedcss\projectbundle\Clients.Blazor.bundle.scp.css
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.Clients.Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.Clients.Blazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.build.Clients.Blazor.props
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Clients.Blazor.props
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Clients.Blazor.props
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients..71CB0E6E.Up2Date
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\refint\Clients.Blazor.dll
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.pdb
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.genruntimeconfig.cache
+C:\Users\Alexandre\Downloads\WebAPPJoseph (1)\WebAPPJoseph\Clients.Model\Clients.Blazor\obj\Debug\net8.0\ref\Clients.Blazor.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\appsettings.Development.json
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\appsettings.json
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.staticwebassets.runtime.json
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.staticwebassets.endpoints.json
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.exe
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.deps.json
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.runtimeconfig.json
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Blazor.pdb
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Dapper.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Data.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Model.dll
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Data.pdb
+C:\Projects\DigitalStrore\Clients.Blazor\bin\Debug\net8.0\Clients.Model.pdb
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.csproj.AssemblyReference.cache
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.AssemblyInfoInputs.cache
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.AssemblyInfo.cs
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.csproj.CoreCompileInputs.cache
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\scopedcss\bundle\Clients.Blazor.styles.css
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\scopedcss\projectbundle\Clients.Blazor.bundle.scp.css
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.Clients.Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.Clients.Blazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.build.Clients.Blazor.props
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Clients.Blazor.props
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Clients.Blazor.props
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\Clients..71CB0E6E.Up2Date
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.dll
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\refint\Clients.Blazor.dll
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.pdb
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\Clients.Blazor.genruntimeconfig.cache
+C:\Projects\DigitalStrore\Clients.Blazor\obj\Debug\net8.0\ref\Clients.Blazor.dll

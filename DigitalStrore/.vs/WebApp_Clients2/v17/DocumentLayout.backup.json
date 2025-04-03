@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\DigitalStrore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|c:\\projects\\digitalstrore\\clients.blazor\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|solutionrelative:clients.blazor\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|c:\\projects\\digitalstrore\\clients.blazor\\components\\pages\\productlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|solutionrelative:clients.blazor\\components\\pages\\productlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E6D555-6616-4325-A85C-E355B0FACBE3}|Clients.Data\\Clients.Data.csproj|c:\\projects\\digitalstrore\\clients.data\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E6D555-6616-4325-A85C-E355B0FACBE3}|Clients.Data\\Clients.Data.csproj|solutionrelative:clients.data\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ALEXANDRE_DOWNLOADS_WEBAPPJOSEPH__1__WEBAPPJOSEPH_CLIENTS.MODEL_CLIENTS.DATA_DB_USER.MDF/True/SqlTable/dbo.Table_Product.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|c:\\projects\\digitalstrore\\clients.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|solutionrelative:clients.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|c:\\projects\\digitalstrore\\clients.blazor\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|solutionrelative:clients.blazor\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{983EFCC1-A9C3-4F2B-89D1-015B4B0ABB04}|Clients.API\\Clients.API.csproj|c:\\projects\\digitalstrore\\clients.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{983EFCC1-A9C3-4F2B-89D1-015B4B0ABB04}|Clients.API\\Clients.API.csproj|solutionrelative:clients.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415EF91C-0E17-487C-988E-545DAD658C65}|Clients.Model\\Clients.Model.csproj|c:\\projects\\digitalstrore\\clients.model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415EF91C-0E17-487C-988E-545DAD658C65}|Clients.Model\\Clients.Model.csproj|solutionrelative:clients.model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|c:\\projects\\digitalstrore\\clients.blazor\\components\\pages\\orderlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|solutionrelative:clients.blazor\\components\\pages\\orderlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{983EFCC1-A9C3-4F2B-89D1-015B4B0ABB04}|Clients.API\\Clients.API.csproj|c:\\projects\\digitalstrore\\clients.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{983EFCC1-A9C3-4F2B-89D1-015B4B0ABB04}|Clients.API\\Clients.API.csproj|solutionrelative:clients.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|c:\\projects\\digitalstrore\\clients.blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|solutionrelative:clients.blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|c:\\projects\\digitalstrore\\clients.blazor\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AEA83CD5-0248-4FFB-93B6-239AE2FFC162}|Clients.Blazor\\Clients.Blazor.csproj|solutionrelative:clients.blazor\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Program.cs",
+              "RelativeDocumentMoniker": "Clients.Blazor\\Program.cs",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Program.cs",
+              "RelativeToolTip": "Clients.Blazor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T11:22:15.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "Clients.Blazor\\Services\\FileService.cs",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Services\\FileService.cs",
+              "RelativeToolTip": "Clients.Blazor\\Services\\FileService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T11:17:09.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dal.cs",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.Data\\Dal.cs",
+              "RelativeDocumentMoniker": "Clients.Data\\Dal.cs",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.Data\\Dal.cs",
+              "RelativeToolTip": "Clients.Data\\Dal.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAowF4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:52:01.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Clients.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Clients.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:48:36.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bootstrap.min.css.map",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "RelativeDocumentMoniker": "Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "RelativeToolTip": "Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-02T18:54:34.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.Model\\Product.cs",
+              "RelativeDocumentMoniker": "Clients.Model\\Product.cs",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.Model\\Product.cs",
+              "RelativeToolTip": "Clients.Model\\Product.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T18:11:04.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Clients.Blazor\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Services\\ProductService.cs",
+              "RelativeToolTip": "Clients.Blazor\\Services\\ProductService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAEwCwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T18:03:44.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.API\\Program.cs",
+              "RelativeDocumentMoniker": "Clients.API\\Program.cs",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.API\\Program.cs",
+              "RelativeToolTip": "Clients.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T12:07:29.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductList.razor",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Components\\Pages\\ProductList.razor",
+              "RelativeDocumentMoniker": "Clients.Blazor\\Components\\Pages\\ProductList.razor",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Components\\Pages\\ProductList.razor",
+              "RelativeToolTip": "Clients.Blazor\\Components\\Pages\\ProductList.razor",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAIAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T16:06:53.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Table_Product.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ALEXANDRE_DOWNLOADS_WEBAPPJOSEPH__1__WEBAPPJOSEPH_CLIENTS.MODEL_CLIENTS.DATA_DB_USER.MDF/True/SqlTable/dbo.Table_Product.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ALEXANDRE_DOWNLOADS_WEBAPPJOSEPH__1__WEBAPPJOSEPH_CLIENTS.MODEL_CLIENTS.DATA_DB_USER.MDF/True/SqlTable/dbo.Table_Product.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-03T11:29:05.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "Clients.Blazor\\wwwroot\\app.css",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
+              "RelativeToolTip": "Clients.Blazor\\wwwroot\\app.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-21T11:41:19.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderList.razor",
+              "DocumentMoniker": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Components\\Pages\\OrderList.razor",
+              "RelativeDocumentMoniker": "Clients.Blazor\\Components\\Pages\\OrderList.razor",
+              "ToolTip": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Components\\Pages\\OrderList.razor",
+              "RelativeToolTip": "Clients.Blazor\\Components\\Pages\\OrderList.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:39:43.602Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

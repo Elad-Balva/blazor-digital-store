@@ -1,0 +1,9 @@
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png
+wwwroot\Pictures\Products\Iphone1.jpg
+wwwroot\Pictures\Products\Iphone1_1.jpg
+wwwroot\Pictures\Products\Iphone2.jpg
+wwwroot\Pictures\Products\Iphone3.jpg
+wwwroot\Pictures\Products\Iphone4.jpg
