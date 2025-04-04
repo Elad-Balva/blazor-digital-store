@@ -1,0 +1,19 @@
+﻿<!-- Add Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Add Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    window.openDeleteModal = () => {
+        var deleteModalElement = document.getElementById('deleteModal');
+        var deleteModal = new bootstrap.Modal(deleteModalElement);
+        deleteModal.show();  // Show the modal
+    };
+
+    window.closeDeleteModal = () => {
+        var deleteModalElement = document.getElementById('deleteModal');
+        var deleteModal = new bootstrap.Modal(deleteModalElement);
+        deleteModal.hide();  // Hide the modal
+    };
+</script>

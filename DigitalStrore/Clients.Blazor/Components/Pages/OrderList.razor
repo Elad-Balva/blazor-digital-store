@@ -7,6 +7,7 @@
 @inject FileService FileService
 @rendermode InteractiveServer
 @using System.ComponentModel.DataAnnotations;
+@inject IJSRuntime JSRuntime
 
 @if (curOrderStage == OrderStage.OrdersList)
 {
@@ -133,24 +134,23 @@
 
 @if (showConfirmDelete)
 {
-    <div class="modal show" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="false">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="deleteModalLabel">Confirm Deletion</h5>
-                    <button type="button" class="btn-close" @onclick="CancelDeleteOrder" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    Are you sure you want to delete this order?
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" @onclick="CancelDeleteOrder">No</button>
-                    <button type="button" class="btn btn-danger" @onclick="DeleteOrder">Yes</button>
-                </div>
+    <div class="custom-modal-overlay">
+        <div class="custom-modal">
+            <div class="modal-header">
+                <h5>Confirm Deletion</h5>
+                <button class="btn-close" @onclick="CancelDeleteOrder">×</button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete this order?
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" @onclick="CancelDeleteOrder">No</button>
+                <button class="btn btn-danger" @onclick="DeleteOrder">Yes</button>
             </div>
         </div>
     </div>
 }
+
 
 @if (isShowPageMessage)
 {
@@ -261,12 +261,14 @@
     {
         orderToDelete = curOrder;
         showConfirmDelete = true;
+        InvokeAsync(() => JSRuntime.InvokeVoidAsync("openDeleteModal"));
     }
 
     private void CancelDeleteOrder()
     {
         orderToDelete = new Order();
         showConfirmDelete = false;
+        InvokeAsync(() => JSRuntime.InvokeVoidAsync("closeDeleteModal"));
     }
 
     private async void DeleteOrder()
@@ -274,6 +276,8 @@
         bool success = await OrderService.Delete(orderToDelete.Id);
         isShowPageMessage = true;
         pageMessage = success ? "Order was Deleted" : "Error Deleting Order";
+
+        await InvokeAsync(() => JSRuntime.InvokeVoidAsync("closeDeleteModal"));
 
         orderToDelete = new Order();
         showConfirmDelete = false;
