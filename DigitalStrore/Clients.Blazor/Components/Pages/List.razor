@@ -1,0 +1,204 @@
+﻿@page "/List"
+@using Model
+@using Clients.Blazor.Services
+@using System.ComponentModel.DataAnnotations
+@inject ClientsService ClientsService
+@inject CityService CityService
+@rendermode InteractiveServer
+
+@if (clients != null)
+{
+    <div class="container">
+        <div class="header">
+            <h1>Client Management</h1>
+        </div>
+
+        <!-- Filters -->
+        <div class="filter-container">
+            <h1>Filter:</h1><br />
+            <input type="text" class="filter-input" placeholder="Filter By FirstName..." @bind="filterFirstName" @oninput="Filter" />
+            <input type="text" class="filter-input" placeholder="Filter By LastName..." @bind="filterLastName" @oninput="Filter" />
+            <input type="text" class="filter-input" placeholder="Filter By Gender..." @bind="filterGender" @oninput="Filter" />
+            <input type="number" class="filter-input" placeholder="Filter By Age..." value="@filterAge.ToString()" @oninput="Filter" />
+            <span class="reset-button" onclick="@ClearFilter">Reset 🗑</span>
+        </div>
+
+        <!-- Clients List -->
+        <div class="clients-list">
+            <h2>Client List</h2>
+            <ul>
+                @foreach (var curclient in filteredclients)
+                {
+                    <li class="client-item">
+                        <div class="client-details">
+                            <strong>First Name:</strong> @curclient.FirstName<br />
+                            <strong>Last Name:</strong> @curclient.LastName<br />
+                            <strong>Age:</strong> @curclient.Age<br />
+                            <strong>Gender:</strong> @curclient.Gender<br />
+                            <strong>Email:</strong> @curclient.Email <br />
+                            <strong>City:</strong> @curclient.City.Name
+                        </div>
+                        <div class="client-actions">
+                            <button @onclick="() => EditClient(curclient)" class="btn-edit">Edit</button>
+                            <button @onclick="() => ConfirmDelete(curclient)" class="btn-delete">Delete</button>
+                        </div>
+                    </li>
+                }
+            </ul>
+            <h3>Total Clients: @filteredclients.Count</h3>
+            <h3>Total Cities: @cities.Count</h3>
+        </div>
+
+        <!-- Edit Client Form -->
+        <div class="edit-form">
+            <h1>Edit/Add Client</h1>
+            <EditForm Model="editClient" OnValidSubmit="SaveClient">
+                <DataAnnotationsValidator />
+                <div class="form-group">
+                    <label>First Name:</label>
+                    <InputText @bind-Value="editClient.FirstName" class="long" />
+                </div>
+                <div class="form-group">
+                    <label>Last Name:</label>
+                    <InputText @bind-Value="editClient.LastName" class="long" />
+                </div>
+                <div class="form-group">
+                    <label>Birth Year:</label>
+                    <InputNumber @bind-Value="editClient.BirthYear" class="long" />
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <InputText @bind-Value="editClient.Gender" class="long" />
+                </div>
+                <div class="form-group">
+                    <label>Email:</label>
+                    <InputText @bind-Value="editClient.Email" class="long" />
+                </div>
+                <div class="form-group">
+                    <label>City:</label>
+                    <InputSelect @bind-Value="selectedCityId" class="long">
+                        <option value="-1" disabled selected>Select a city</option>
+                        @foreach (var city in cities)
+                        {
+                            <option value="@city.Id">@city.Name</option>
+                        }
+                    </InputSelect>
+                </div>
+                <button type="submit" class="btn-submit">@btnText</button>
+            </EditForm>
+        </div>
+
+        <!-- Confirmation Dialogs -->
+        @if (showConfirmDelete)
+        {
+            <div class="confirmation-dialog">
+                <h1 class="confirmation-text">Are You Sure?</h1>
+                <div class="button-group">
+                    <button class="confirm-button" @onclick="DeleteClient">Yes</button>
+                    <button class="cancel-button" @onclick="CancelDelete">No</button>
+                </div>
+            </div>
+        }
+
+        @if (isShowPageMessage)
+        {
+            <div class="confirmation-dialog">
+                <h1 class="confirmation-text">@pageMessage</h1>
+                <div class="button-group">
+                    <button class="confirm-button" @onclick="ClearMessage">Close</button>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private List<Client> clients, filteredclients;
+    private List<City> cities;
+    private Client editClient = new();
+    private City editCity = new();
+    private Client clientToDelete = new();
+    private City CityToDelete = new();
+
+    private string filterFirstName = "", filterLastName = "", filterGender = "";
+    private int filterAge = 0, selectedCityId = -1;
+    private bool showConfirmDelete = false, isShowPageMessage = false;
+    private string pageMessage = "", btnText = "Add";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+
+    private async Task LoadData()
+    {
+        clients = await ClientsService.Read();
+        filteredclients = clients;
+        cities = await CityService.Read();
+    }
+
+    private void ClearMessage() => (isShowPageMessage, pageMessage) = (false, "");
+
+    private void EditClient(Client curClient)
+    {
+        editClient = new(curClient.Id, curClient.FirstName, curClient.LastName, curClient.BirthYear, curClient.Gender, curClient.Email, curClient.City);
+        selectedCityId = editClient.City.Id;
+        btnText = "Update";
+    }
+
+    private void ConfirmDelete(Client curClient) => (clientToDelete, showConfirmDelete) = (curClient, true);
+
+    private void CancelDelete() => (clientToDelete, showConfirmDelete) = (new(), false);
+
+    private async Task DeleteClient()
+    {
+        if (await ClientsService.Delete(clientToDelete.Id))
+        {
+            isShowPageMessage = true;
+            pageMessage = "Client was Deleted";
+            await LoadData();
+        }
+        showConfirmDelete = false;
+    }
+
+    private async Task SaveClient()
+    {
+        if (btnText == "Add")
+        {
+            if (await ClientsService.Create(editClient))
+            {
+                isShowPageMessage = true;
+                pageMessage = "Client was added";
+                await LoadData();
+            }
+        }
+        else
+        {
+            if (await ClientsService.Update(editClient))
+            {
+                isShowPageMessage = true;
+                pageMessage = "Client was Updated";
+                btnText = "Add";
+                await LoadData();
+            }
+        }
+        editClient = new();
+    }
+
+    private void ClearFilter()
+    {
+        filterFirstName = filterLastName = filterGender = "";
+        filterAge = 0;
+        Filter();
+    }
+
+    private void Filter()
+    {
+        filteredclients = clients
+            .Where(c => c.FirstName.StartsWith(filterFirstName, StringComparison.OrdinalIgnoreCase)
+                     && c.LastName.StartsWith(filterLastName, StringComparison.OrdinalIgnoreCase)
+                     && c.Gender.StartsWith(filterGender, StringComparison.OrdinalIgnoreCase)
+                     && (filterAge == 0 || c.Age == filterAge))
+            .ToList();
+    }
+}
