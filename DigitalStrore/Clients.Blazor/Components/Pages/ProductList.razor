@@ -12,219 +12,145 @@
 
 @if (products != null)
 {
-    <div class="container">
-        <div class="header">
-            <h1>Product Management</h1>
+    <div class="container my-5">
+        <div class="row mb-4">
+            <div class="col">
+                <h1 class="text-center">Product Management</h1>
+            </div>
         </div>
 
-        <div class="products-list">
-            <h2>Product List</h2>
-            <div class="product-list">
-
-                @foreach (Product curproduct in products)
-                {
-                    <div class="product-item">
-                        <div class="card" style="width: 18rem;">
-                            <img src="@($"{CurFolder4Display} /{curproduct.Picture}")" class="card-img-top" alt="Iphones">
-                            <div class="card-body">
-                                <h4 class="card-title"> @curproduct.Name </h4>
-                                <h5 class="card-title"> @curproduct.Category.Name </h5>
-                                <p class="card-text"> @curproduct.Company.Name </p>
-                                <p class="card-text"> @curproduct.Id</p>
-                                <p class="card-text"> @curproduct.Price </p>
-                                <p class="card-text"> Note : @curproduct.Description </p>
-                                <div class="order-actions">
-                                    <button @onclick="() => EditProduct(curproduct)" class="gov-edit-btn btn bg-black">✏️</button>
-                                    <button @onclick="() => ConfirmDelete(curproduct)" class="delete-btn btn btn-danger">Delete 🗑</button>
-                                </div>
+        <!-- Product List -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (Product curproduct in products)
+            {
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="@($"{CurFolder4Display} /{curproduct.Picture}")" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">@curproduct.Name</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">@curproduct.Category.Name</h6>
+                            <p class="card-text">@curproduct.Company.Name</p>
+                            <p class="card-text"><strong>Price:</strong> @curproduct.Price</p>
+                            <p class="card-text"><strong>Note:</strong> @curproduct.Description</p>
+                            <p class="card-text"><strong>ID:</strong> @curproduct.Id</p>
+                            <div class="d-flex justify-content-between">
+                                <button @onclick="() => EditProduct(curproduct)" class="btn btn-warning">✏️ Edit</button>
+                                <button @onclick="() => ConfirmDelete(curproduct)" class="btn btn-danger">🗑 Delete</button>
                             </div>
                         </div>
                     </div>
-                }
-            </div>
-            @* <h3>Total Products: @products.Count</h3>
-            <h3>Total Companies: @companies.Count</h3>
-            <h3>Total Categories: @categories.Count</h3> *@
+                </div>
+            }
         </div>
 
-        <div class="edit-form">
-            <h1>Edit/Add Product</h1>
+        <!-- Edit/Add Product Form -->
+        <div class="mt-5">
+            <h2 class="text-center">@btnText Product</h2>
             <EditForm Model="editProduct" OnValidSubmit="BtnClick">
                 <DataAnnotationsValidator />
-                <div class="form-group">
-                    <label>Name:</label>
-                    <InputText @bind-Value="editProduct.Name" class="long" />
-                </div>
-                <div class="form-group">
-                    <label>Price:</label>
-                    <InputNumber @bind-Value="editProduct.Price" class="long" />
-                </div>
-                <div class="form-group">
-                    <label>Describion:</label>
-                    <InputText @bind-Value="editProduct.Description" class="long" />
-                </div>
-                <div class="form-group">
-                    <label>Amount:</label>
-                    <InputNumber @bind-Value="editProduct.Count" class="long" />
-                </div>
-
-                <div class="form-group">
-                    <label>Category:</label>
-                    <InputSelect @bind-Value="selectedCategoryId" class="long">
-                        <option value="-1" disabled selected>Select a category</option>
-                        @if (categories != null)
-                        {
-                            @foreach (var category in categories)
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="productName">Product Name:</label>
+                            <InputText id="productName" @bind-Value="editProduct.Name" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="productPrice">Price:</label>
+                            <InputNumber id="productPrice" @bind-Value="editProduct.Price" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="productDescription">Description:</label>
+                            <InputText id="productDescription" @bind-Value="editProduct.Description" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="productAmount">Amount:</label>
+                            <InputNumber id="productAmount" @bind-Value="editProduct.Count" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="productCategory">Category:</label>
+                            <InputSelect id="productCategory" @bind-Value="selectedCategoryId" class="form-control">
+                                <option value="-1" disabled selected>Select a category</option>
+                                @foreach (var category in categories)
+                                {
+                                    <option value="@category.Id">@category.Name</option>
+                                }
+                            </InputSelect>
+                        </div>
+                        <div class="form-group">
+                            <label for="productCompany">Company:</label>
+                            <InputSelect id="productCompany" @bind-Value="selectedCompanyId" class="form-control">
+                                <option value="-1" disabled selected>Select a company</option>
+                                @foreach (var company in companies)
+                                {
+                                    <option value="@company.Id">@company.Name</option>
+                                }
+                            </InputSelect>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="productImage">Product Image:</label>
+                            <InputFile id="productImage" OnChange="OnInputFileChange" accept="image/*" class="form-control" />
+                            @if (fileDataUrl != null)
                             {
-                                <option value="@category.Id">@category.Name</option>
+                                <div class="mt-2">
+                                    <p>Selected File: @fileName (@filesize bytes)</p>
+                                    <img src="@fileDataUrl" alt="Selected Image" width="200" class="img-fluid" />
+                                </div>
                             }
-                        }
-                    </InputSelect>
-                </div>
-                <div class="form-group">
-                    <label>Company:</label>
-                    <InputSelect @bind-Value="selectedCompanyId" class="long">
-                        <option value="-1" disabled selected>Select a company</option>
-                        @if (companies != null)
-                        {
-                            @foreach (var company in companies)
-                            {
-                                <option value="@company.Id">@company.Name</option>
-                            }
-                        }
-                    </InputSelect>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label>Picture</label>
-                    <InputFile OnChange="OnInputFileChange" accept="image/*" />
-
-                    @if (fileDataUrl != null)
+                <button type="submit" class="btn btn-primary w-100 mt-4">@btnText</button>
+                <ValidationSummary />
+                <div class="mt-3">
+                    @foreach (var validation in moreValidations)
                     {
-                        <p>Selected File: @fileName (@filesize bytes)</p>
-                        <img src="@fileDataUrl" alt="Selected Image" width="200" />
+                        <div class="alert alert-warning" role="alert">@validation</div>
                     }
                 </div>
-
-                <button type="submit" class="btn-submit">@btnText</button><br /><br />
-                @foreach (var company in companies) if (company.Id == selectedCompanyId) editProduct.Company = company;
-                @foreach (var category in categories) if (category.Id == selectedCategoryId) editProduct.Category = category;
-                <ValidationSummary />
-                @for (int i = 0; i < moreValidations.Count; i++)
-                {
-                    <ul class="validation-message-list">
-                        <li class="validation-message">@moreValidations[i]</li>
-                    </ul>
-                }
             </EditForm>
-            <h1>Edit/Add Product</h1>
-            <button @onclick="() => ChangeisShowCategoryModal(true)">+</button><br />
-        </div>
-        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">N</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-
-            <h1>Edit/Add Category</h1>
-            <button @onclick="() => ChangeisShowCategoryModal(true)">+</button><br />
         </div>
 
-
-        @if (isShowCategoryModal)
-        {
-            <div class="edit-form">
-                <h3>@(IsCategoryEditMode ? "Edit Category" : "Add New Category") <button @onclick="() => ChangeisShowCategoryModal(false)">❌</button></h3>
-                <EditForm Model="editCategory" OnValidSubmit="SaveCategory">
-                    <DataAnnotationsValidator />
-                    <div class="form-group">
-                        <label>Name:</label>
-                        <InputText @bind-Value="editCategory.Name" class="long" />
+        <!-- Modals for Editing Categories, Companies -->
+        <div class="modal fade @((isShowCategoryModal ? "show" : ""))" tabindex="-1" aria-labelledby="categoryModalLabel" style="display: @((isShowCategoryModal ? "block" : "none"));">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="categoryModalLabel">@((IsCategoryEditMode ? "Edit Category" : "Add New Category"))</h5>
+                        <button type="button" class="btn-close" @onclick="() => ChangeisShowCategoryModal(false)" aria-label="Close"></button>
                     </div>
-                    <button class=" btn-submit" type="submit">@(IsCategoryEditMode ? "Edit Category" : "Add New Category")</button><br />
-                    <ValidationSummary />
-                </EditForm>
-                <br />
-                <button @onclick="() => ConfirmCategoryDelete(editCategory)" class="btn-delete">Delete Category🗑</button>
+                    <div class="modal-body">
+                        <EditForm Model="editCategory" OnValidSubmit="SaveCategory">
+                            <DataAnnotationsValidator />
+                            <div class="form-group">
+                                <label for="categoryName">Category Name:</label>
+                                <InputText id="categoryName" @bind-Value="editCategory.Name" class="form-control" />
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3" type="submit">@((IsCategoryEditMode ? "Update Category" : "Add Category"))</button>
+                        </EditForm>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" @onclick="() => ChangeisShowCategoryModal(false)">Close</button>
+                        <button type="button" class="btn btn-danger" @onclick="() => ConfirmCategoryDelete(editCategory)">Delete Category</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Confirmation Dialog -->
+        @if (showConfirmDelete)
+        {
+            <div class="confirmation-dialog">
+                <h1 class="confirmation-text">Are You Sure?</h1>
+                <div class="button-group">
+                    <button class="btn btn-danger" @onclick="DeleteProduct">Yes</button>
+                    <button class="btn btn-secondary" @onclick="CancelDelete">No</button>
+                </div>
             </div>
         }
-
-        <h1>Edit/Add Company</h1>
-        <button @onclick="() => ChangeisShowCompanyModal(true)">+</button><br />
-    @if (isShowCompanyModal)
-    {
-        <div class="edit-form">
-            <h3>@(IsCompanyEditMode ? "Edit Company" : "Add New Company") <button @onclick="() => ChangeisShowCompanyModal(false)">❌</button></h3>
-            <EditForm Model="editCompany" OnValidSubmit="SaveCompany">
-                <DataAnnotationsValidator />
-                <div class="form-group">
-                    <label>Name:</label>
-                    <InputText @bind-Value="editCompany.Name" class="long" />
-                </div>
-                <button class=" btn-submit" type="submit">@(IsCompanyEditMode ? "Edit Company" : "Add New Company")</button><br />
-                <ValidationSummary />
-            </EditForm>
-            <br />
-            <button @onclick="() => ConfirmCompanyDelete(editCompany)" class="btn-delete">Delete Company🗑</button>
-        </div>
-    }
-
-    @if (showConfirmDelete)
-    {
-        <div class="confirmation-dialog">
-            <h1 class="confirmation-text">Are You Sure?</h1>
-            <div class="button-group">
-                <button class="confirm-button" @onclick="DeleteProduct">Yes</button>
-                <button class="cancel-button" @onclick="CancelDelete">No</button>
-            </div>
-        </div>
-    }
-    @if (showConfirmDeleteCompany)
-    {
-        <div class="confirmation-dialog">
-            <h1 class="confirmation-text">Are You Sure?</h1>
-            <div class="button-group">
-                <button class="confirm-button" @onclick="DeleteCompany">Yes</button>
-                <button class="cancel-button" @onclick="CancelCompanyDelete">No</button>
-            </div>
-        </div>
-    }
-    @if (showConfirmDeleteCategory)
-    {
-        <div class="confirmation-dialog">
-            <h1 class="confirmation-text">Are You Sure?</h1>
-            <div class="button-group">
-                <button class="confirm-button" @onclick="DeleteCategory">Yes</button>
-                <button class="cancel-button" @onclick="CancelCategoryDelete">No</button>
-            </div>
-        </div>
-    }
-    @if (isShowPageMessage)
-    {
-        <div class="confirmation-dialog">
-            <h1 class="confirmation-text">@pageMessage</h1>
-            <div class="button-group">
-                <button class="confirm-button" @onclick="ClearMessage">Close</button>
-            </div>
-        </div>
-    }
-
-    <InputFile OnChange="HandleSelectedFile" accept="image/*" />
-
+    </div>
 }
 
 
