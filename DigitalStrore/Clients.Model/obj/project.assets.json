@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\DigitalStrore\\Clients.Model\\Clients.Model.csproj",
+      "projectUniqueName": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\Clients.Model.csproj",
       "projectName": "Clients.Model",
-      "projectPath": "C:\\Projects\\DigitalStrore\\Clients.Model\\Clients.Model.csproj",
+      "projectPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\Clients.Model.csproj",
       "packagesPath": "C:\\Users\\eladb\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\DigitalStrore\\Clients.Model\\obj\\",
+      "outputPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

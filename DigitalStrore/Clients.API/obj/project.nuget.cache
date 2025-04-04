@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BoEoWtfPHqc=",
+  "dgSpecHash": "33VbfBVFcy4=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\DigitalStrore\\Clients.API\\Clients.API.csproj",
+  "projectFilePath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.API\\Clients.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eladb\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\eladb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

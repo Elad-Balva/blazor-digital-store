@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\DigitalStrore\\Clients.API\\Clients.API.csproj": {}
+    "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.API\\Clients.API.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\DigitalStrore\\Clients.API\\Clients.API.csproj": {
+    "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.API\\Clients.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\DigitalStrore\\Clients.API\\Clients.API.csproj",
+        "projectUniqueName": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.API\\Clients.API.csproj",
         "projectName": "Clients.API",
-        "projectPath": "C:\\Projects\\DigitalStrore\\Clients.API\\Clients.API.csproj",
+        "projectPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.API\\Clients.API.csproj",
         "packagesPath": "C:\\Users\\eladb\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\DigitalStrore\\Clients.API\\obj\\",
+        "outputPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projects\\DigitalStrore\\Clients.Data\\Clients.Data.csproj": {
-                "projectPath": "C:\\Projects\\DigitalStrore\\Clients.Data\\Clients.Data.csproj"
+              "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Data\\Clients.Data.csproj": {
+                "projectPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Data\\Clients.Data.csproj"
               },
-              "C:\\Projects\\DigitalStrore\\Clients.Model\\Clients.Model.csproj": {
-                "projectPath": "C:\\Projects\\DigitalStrore\\Clients.Model\\Clients.Model.csproj"
+              "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\Clients.Model.csproj": {
+                "projectPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\Clients.Model.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Projects\\DigitalStrore\\Clients.Data\\Clients.Data.csproj": {
+    "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Data\\Clients.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\DigitalStrore\\Clients.Data\\Clients.Data.csproj",
+        "projectUniqueName": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Data\\Clients.Data.csproj",
         "projectName": "Clients.Data",
-        "projectPath": "C:\\Projects\\DigitalStrore\\Clients.Data\\Clients.Data.csproj",
+        "projectPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Data\\Clients.Data.csproj",
         "packagesPath": "C:\\Users\\eladb\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\DigitalStrore\\Clients.Data\\obj\\",
+        "outputPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projects\\DigitalStrore\\Clients.Model\\Clients.Model.csproj": {
-                "projectPath": "C:\\Projects\\DigitalStrore\\Clients.Model\\Clients.Model.csproj"
+              "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\Clients.Model.csproj": {
+                "projectPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\Clients.Model.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Projects\\DigitalStrore\\Clients.Model\\Clients.Model.csproj": {
+    "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\Clients.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\DigitalStrore\\Clients.Model\\Clients.Model.csproj",
+        "projectUniqueName": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\Clients.Model.csproj",
         "projectName": "Clients.Model",
-        "projectPath": "C:\\Projects\\DigitalStrore\\Clients.Model\\Clients.Model.csproj",
+        "projectPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\Clients.Model.csproj",
         "packagesPath": "C:\\Users\\eladb\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\DigitalStrore\\Clients.Model\\obj\\",
+        "outputPath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

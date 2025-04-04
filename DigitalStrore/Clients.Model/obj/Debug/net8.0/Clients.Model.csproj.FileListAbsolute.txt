@@ -42,3 +42,15 @@ C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyI
 C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.csproj.CoreCompileInputs.cache
 C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\refint\Clients.Model.dll
 C:\Projects\DigitalStrore\Clients.Model\obj\Debug\net8.0\ref\Clients.Model.dll
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\bin\Debug\net8.0\Clients.Model.deps.json
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\bin\Debug\net8.0\Clients.Model.dll
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\bin\Debug\net8.0\Clients.Model.pdb
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyInfoInputs.cache
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.AssemblyInfo.cs
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.csproj.CoreCompileInputs.cache
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.sourcelink.json
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.dll
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\obj\Debug\net8.0\refint\Clients.Model.dll
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\obj\Debug\net8.0\Clients.Model.pdb
+C:\Projects\blazor-digital-store\DigitalStrore\Clients.Model\obj\Debug\net8.0\ref\Clients.Model.dll

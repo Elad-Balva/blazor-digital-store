@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kCR5K8J1NE0=",
+  "dgSpecHash": "iVpda86UPjs=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\Clients.Blazor.csproj",
+  "projectFilePath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\Clients.Blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eladb\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\eladb\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

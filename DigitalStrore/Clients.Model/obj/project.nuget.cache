@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1DJA2XN+nMk=",
+  "dgSpecHash": "3QLPGoqUBM4=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\DigitalStrore\\Clients.Model\\Clients.Model.csproj",
+  "projectFilePath": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Model\\Clients.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

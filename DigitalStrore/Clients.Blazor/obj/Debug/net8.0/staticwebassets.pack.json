@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
+      "Id": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
       "PackagePath": "staticwebassets\\Clients.Blazor.y2ljanbogi.bundle.scp.css"
     },
     {
-      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
+      "Id": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
       "PackagePath": "staticwebassets\\Pictures\\Products\\Iphone1.jpg"
     },
     {
-      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
+      "Id": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
       "PackagePath": "staticwebassets\\Pictures\\Products\\Iphone1_1.jpg"
     },
     {
-      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
+      "Id": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
       "PackagePath": "staticwebassets\\Pictures\\Products\\Iphone2.jpg"
     },
     {
-      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
+      "Id": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
       "PackagePath": "staticwebassets\\Pictures\\Products\\Iphone3.jpg"
     },
     {
-      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
+      "Id": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
       "PackagePath": "staticwebassets\\Pictures\\Products\\Iphone4.jpg"
     },
     {
-      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
+      "Id": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
+      "Id": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

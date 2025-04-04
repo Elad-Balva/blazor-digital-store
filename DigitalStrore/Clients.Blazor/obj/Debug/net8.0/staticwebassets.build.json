@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EfM0LOcFgU9pqFroM3//kErIS5IcQ/AX/Gidrh3AhHg=",
+  "Hash": "dhD8eqHu2lB51X91+e12pHblUPWDqrgUadnX9W8SaKc=",
   "Source": "Clients.Blazor",
   "BasePath": "_content/Clients.Blazor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Clients.Blazor\\wwwroot",
       "Source": "Clients.Blazor",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
       "BasePath": "_content/Clients.Blazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css",
       "SourceId": "Clients.Blazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "Clients.Blazor#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css"
+      "OriginalItemSpec": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css"
     },
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
       "SourceId": "Clients.Blazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "Clients.Blazor#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "hljpSU1ir9z2ZLRcvc+gfTIONhkwmJibAK1T/PJvO/w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
       "SourceId": "Clients.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Clients.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Clients.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
       "SourceId": "Clients.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
       "SourceId": "Clients.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "Pictures/Products/Iphone1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\Pictures\\Products\\Iphone1.jpg"
     },
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
       "SourceId": "Clients.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "Pictures/Products/Iphone1_1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\Pictures\\Products\\Iphone1_1.jpg"
     },
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
       "SourceId": "Clients.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "Pictures/Products/Iphone2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\Pictures\\Products\\Iphone2.jpg"
     },
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
       "SourceId": "Clients.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "Pictures/Products/Iphone3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\Pictures\\Products\\Iphone3.jpg"
     },
     {
-      "Identity": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
+      "Identity": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
       "SourceId": "Clients.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\",
       "BasePath": "_content/Clients.Blazor",
       "RelativePath": "Pictures/Products/Iphone4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -251,7 +251,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -288,7 +288,7 @@
     },
     {
       "Route": "app.zoi9sj1w72.css",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -333,7 +333,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -378,7 +378,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -415,7 +415,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -460,7 +460,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -497,7 +497,7 @@
     },
     {
       "Route": "Clients.Blazor.bundle.scp.css",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -518,7 +518,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 12:23:28 GMT"
+          "Value": "Fri, 04 Apr 2025 16:20:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -534,7 +534,7 @@
     },
     {
       "Route": "Clients.Blazor.styles.css",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -555,7 +555,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 12:23:28 GMT"
+          "Value": "Fri, 04 Apr 2025 16:20:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -571,7 +571,7 @@
     },
     {
       "Route": "Clients.Blazor.y2ljanbogi.bundle.scp.css",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clients.Blazor.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -592,7 +592,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 12:23:28 GMT"
+          "Value": "Fri, 04 Apr 2025 16:20:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -616,7 +616,7 @@
     },
     {
       "Route": "Clients.Blazor.y2ljanbogi.styles.css",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Clients.Blazor.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -637,7 +637,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 12:23:28 GMT"
+          "Value": "Fri, 04 Apr 2025 16:20:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -661,7 +661,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -706,7 +706,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -743,7 +743,7 @@
     },
     {
       "Route": "Pictures/Products/Iphone1.5mly3i0sgu.jpg",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -788,7 +788,7 @@
     },
     {
       "Route": "Pictures/Products/Iphone1.jpg",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -825,7 +825,7 @@
     },
     {
       "Route": "Pictures/Products/Iphone1_1.5mly3i0sgu.jpg",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -870,7 +870,7 @@
     },
     {
       "Route": "Pictures/Products/Iphone1_1.jpg",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone1_1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -907,7 +907,7 @@
     },
     {
       "Route": "Pictures/Products/Iphone2.jpg",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -944,7 +944,7 @@
     },
     {
       "Route": "Pictures/Products/Iphone2.vh27co5vaa.jpg",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "Route": "Pictures/Products/Iphone3.jpg",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1026,7 +1026,7 @@
     },
     {
       "Route": "Pictures/Products/Iphone3.th0nw8s1z6.jpg",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1071,7 +1071,7 @@
     },
     {
       "Route": "Pictures/Products/Iphone4.8oaxxjxkhm.jpg",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1116,7 +1116,7 @@
     },
     {
       "Route": "Pictures/Products/Iphone4.jpg",
-      "AssetFile": "C:\\Projects\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
+      "AssetFile": "C:\\Projects\\blazor-digital-store\\DigitalStrore\\Clients.Blazor\\wwwroot\\Pictures\\Products\\Iphone4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
