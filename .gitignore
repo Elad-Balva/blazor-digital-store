@@ -1,0 +1,49 @@
+
+DigitalStrore/.vs/WebApp_Clients2/FileContentIndex/
+
+# Ignore Visual Studio user-specific files
+*.user
+*.suo
+*.vscode/
+*.vs/
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore package dependencies
+packages/
+!packages/repositories.config
+
+# Ignore .NET Core generated files
+project.lock.json
+project.assets.json
+
+# Ignore logs and database files
+*.log
+*.tlog
+
+# Ignore temporary files
+*.tmp
+*.cache
+*.csproj.user
+
+# Ignore ASP.NET Razor specific files
+wwwroot/node_modules/
+wwwroot/lib/
+
+# Ignore secrets and config files
+appsettings.Development.json
+secrets.json
+.env
+
+# Ignore Rider / JetBrains files
+.idea/
+*.sln.iml
+
+# Ignore Publish artifacts
+publish/
+out/
+
+# Ignore ReSharper files
+*.DotSettings.user
