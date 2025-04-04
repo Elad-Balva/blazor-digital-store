@@ -1,2 +1,8 @@
+
+# Ignore all bin directories
 bin/
-DigitalStrore/.vs/WebApp_DigitalStore
+
+# Other rules...
+*.log
+*.tmp
+DigitalStrore/.vs/
