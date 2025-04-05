@@ -65,27 +65,27 @@
                 <DataAnnotationsValidator />
                 <div class="mb-3">
                     <label for="firstName" class="form-label">First Name</label>
-                    <InputText @bind-Value="editClient.FirstName" class="form-control" id="firstName" />
+                    <InputText @bind-Value="editClient.FirstName" class="@GetFieldClass("FirstName")" id="firstName" />
                 </div>
                 <div class="mb-3">
                     <label for="lastName" class="form-label">Last Name</label>
-                    <InputText @bind-Value="editClient.LastName" class="form-control" id="lastName" />
+                    <InputText @bind-Value="editClient.LastName" class="@GetFieldClass("LastName")" id="lastName" />
                 </div>
                 <div class="mb-3">
                     <label for="birthYear" class="form-label">Birth Year</label>
-                    <InputNumber @bind-Value="editClient.BirthYear" class="form-control" id="birthYear" />
+                    <InputNumber @bind-Value="editClient.BirthYear" class="@GetFieldClass("BirthYear")" id="birthYear" />
                 </div>
                 <div class="mb-3">
                     <label for="gender" class="form-label">Gender</label>
-                    <InputText @bind-Value="editClient.Gender" class="form-control" id="gender" />
+                    <InputText @bind-Value="editClient.Gender" class="@GetFieldClass("Gender")" id="gender" />
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <InputText @bind-Value="editClient.Email" class="form-control" id="email" />
+                    <InputText @bind-Value="editClient.Email" class="@GetFieldClass("Email")" id="email" />
                 </div>
                 <div class="mb-3">
                     <label for="city" class="form-label">City</label>
-                    <InputSelect @bind-Value="selectedCityId" class="form-select" id="city">
+                    <InputSelect @bind-Value="selectedCityId" class="@GetFieldClass("City")" id="city">
                         <option value="-1" disabled selected>Select a city</option>
                         @foreach (var city in cities)
                         {
@@ -102,9 +102,9 @@
         {
             <div class="confirmation-dialog position-fixed top-50 start-50 translate-middle bg-white p-4 border rounded shadow-lg">
                 <h5 class="confirmation-text">Are you sure you want to delete this client?</h5>
-                <div class="button-group">
+                <div class="button-group d-flex justify-content-end align-items-center">
+                    <button class="btn btn-secondary me-1" @onclick="CancelDelete">No</button>
                     <button class="btn btn-danger" @onclick="DeleteClient">Yes</button>
-                    <button class="btn btn-secondary" @onclick="CancelDelete">No</button>
                 </div>
             </div>
         }
@@ -115,6 +115,32 @@
                 <h5 class="confirmation-text">@pageMessage</h5>
                 <div class="button-group">
                     <button class="btn btn-primary" @onclick="ClearMessage">Close</button>
+                </div>
+            </div>
+        }
+
+        @if (showModal)
+        {
+            <div class="modal show d-block" tabindex="-1" style="background-color: rgba(0,0,0,0.5);">
+                <div class="modal-dialog">
+                    <div class="modal-content border-danger">
+                        <div class="modal-header bg-danger text-white">
+                            <h5 class="modal-title">Missing Fields</h5>
+                            <button type="button" class="btn-close" @onclick="() => showModal = false"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Please fill in the following fields:</p>
+                            <ul>
+                                @foreach (var field in missingFields)
+                                {
+                                    <li>@field</li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" @onclick="() => showModal = false">Close</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         }
@@ -172,6 +198,16 @@
 
     private async Task SaveClient()
     {
+        ValidateFields();
+
+        editClient.City = cities.Find((curCity) => curCity.Id == selectedCityId);
+
+        if (missingFields.Any())
+        {
+            showModal = true;
+            return;
+        }
+
         if (btnText == "Add")
         {
             if (await ClientsService.Create(editClient))
@@ -191,8 +227,65 @@
                 await LoadData();
             }
         }
+
         editClient = new();
+        selectedCityId = -1;
+        fieldErrors.Clear();
     }
+
+    //Save Client Check
+    private List<string> missingFields = new();
+    private Dictionary<string, bool> fieldErrors = new();
+    private bool showModal = false;
+
+    private void ValidateFields()
+    {
+        missingFields.Clear();
+        fieldErrors.Clear();
+
+        if (string.IsNullOrWhiteSpace(editClient.FirstName))
+        {
+            missingFields.Add("First Name");
+            fieldErrors["FirstName"] = true;
+        }
+
+        if (string.IsNullOrWhiteSpace(editClient.LastName))
+        {
+            missingFields.Add("Last Name");
+            fieldErrors["LastName"] = true;
+        }
+
+        if (editClient.BirthYear == 0)
+        {
+            missingFields.Add("Birth Year");
+            fieldErrors["BirthYear"] = true;
+        }
+
+        if (string.IsNullOrWhiteSpace(editClient.Gender))
+        {
+            missingFields.Add("Gender");
+            fieldErrors["Gender"] = true;
+        }
+
+        if (string.IsNullOrWhiteSpace(editClient.Email))
+        {
+            missingFields.Add("Email");
+            fieldErrors["Email"] = true;
+        }
+
+        if (selectedCityId == -1)
+        {
+            missingFields.Add("City");
+            fieldErrors["City"] = true;
+        }
+    }
+
+    private string GetFieldClass(string field)
+    {
+        var baseClass = field == "City" ? "form-select" : "form-control";
+        return fieldErrors.ContainsKey(field) ? $"{baseClass} is-invalid" : baseClass;
+    }
+    //End Save Client
 
     private void ClearFilter()
     {
