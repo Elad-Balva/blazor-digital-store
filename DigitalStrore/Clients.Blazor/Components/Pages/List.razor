@@ -18,16 +18,16 @@
             <h5>Filter Clients:</h5>
             <div class="row">
                 <div class="col-md-3">
-                    <input type="text" class="form-control" placeholder="First Name..." @bind="filterFirstName" @oninput="Filter" />
+                    <input type="text" class="form-control" placeholder="First Name..." @bind="filterFirstName" @oninput="SetFirstName" @onkeyup="Filter" />
                 </div>
                 <div class="col-md-3">
-                    <input type="text" class="form-control" placeholder="Last Name..." @bind="filterLastName" @oninput="Filter" />
+                    <input type="text" class="form-control" placeholder="Last Name..." @bind="filterLastName" @oninput="SetLastName" @onkeyup="Filter" />
                 </div>
                 <div class="col-md-3">
-                    <input type="text" class="form-control" placeholder="Gender..." @bind="filterGender" @oninput="Filter" />
+                    <input type="text" class="form-control" placeholder="Gender..." @bind="filterGender" @oninput="SetGender" @onkeyup="Filter" />
                 </div>
                 <div class="col-md-3">
-                    <input type="number" class="form-control" placeholder="Age..." value="@filterAge.ToString()" @oninput="Filter" />
+                    <input type="number" class="form-control" placeholder="Age..." value="@filterAge.ToString()" @oninput="SetAge" @onkeyup="Filter" />
                 </div>
             </div>
             <div class="mt-3">
@@ -204,10 +204,34 @@
     private void Filter()
     {
         filteredclients = clients
-            .Where(c => c.FirstName.StartsWith(filterFirstName, StringComparison.OrdinalIgnoreCase)
-                     && c.LastName.StartsWith(filterLastName, StringComparison.OrdinalIgnoreCase)
-                     && c.Gender.StartsWith(filterGender, StringComparison.OrdinalIgnoreCase)
+            .Where(c => c.FirstName.Contains(filterFirstName, StringComparison.OrdinalIgnoreCase)
+                     && c.LastName.Contains(filterLastName, StringComparison.OrdinalIgnoreCase)
+                     && c.Gender.Contains(filterGender, StringComparison.OrdinalIgnoreCase)
                      && (filterAge == 0 || c.Age == filterAge))
             .ToList();
+    }
+
+    private async Task SetFirstName(ChangeEventArgs e)
+    {
+        // Get the current typed value
+        filterFirstName = e.Value?.ToString();
+    }
+
+    private async Task SetLastName(ChangeEventArgs e)
+    {
+        // Get the current typed value
+        filterLastName = e.Value?.ToString();
+    }
+
+    private async Task SetGender(ChangeEventArgs e)
+    {
+        // Get the current typed value
+        filterGender = e.Value?.ToString();
+    }
+
+    private async Task SetAge(ChangeEventArgs e)
+    {
+        // Get the current typed value
+        filterAge = int.Parse(e.Value?.ToString());
     }
 }
