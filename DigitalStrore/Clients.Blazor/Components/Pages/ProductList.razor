@@ -9,6 +9,7 @@
 @rendermode InteractiveServer
 @using System.ComponentModel.DataAnnotations;
 @using Microsoft.AspNetCore.Components.Forms;
+@inject IWebHostEnvironment Environment
 
 @if (products != null)
 {
@@ -25,7 +26,8 @@
             {
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img src="@($"{CurFolder4Display} /{curproduct.Picture}")" class="card-img-top" alt="Product Image">
+                        @* <img src="@($"{UploadedImagesPath}/{curproduct.Picture}")" class="card-img-top" alt="Product Image"> *@
+                        <img src="uploads/laptop.png" class="card-img-top" alt="Product Image">
                         <div class="card-body">
                             <h5 class="card-title">@curproduct.Name</h5>
                             <h6 class="card-subtitle mb-2 text-muted">@curproduct.Category.Name</h6>
@@ -90,12 +92,12 @@
                         </div>
                         <div class="form-group mt-3">
                             <label for="productImage">Product Image:</label>
-                            <InputFile id="productImage" OnChange="OnInputFileChange" accept="image/*" class="form-control" />
+                            <InputFile id="productImage" OnChange="HandleSelectedProductPicture" accept="image/*" class="form-control" />
                             @if (fileDataUrl != null)
                             {
                                 <div class="mt-2">
                                     <p>Selected File: @fileName (@filesize bytes)</p>
-                                    <img src="@fileDataUrl" alt="Selected Image" width="200" class="img-fluid" />
+                                    <img src="@fileDataUrl" alt="Selected Image" width="200" height="200" class="img-fluid" />
                                 </div>
                             }
                         </div>
@@ -165,13 +167,10 @@
 
 @code {
     public string CurFolder4Display => $"{FileService.Folder4Display}/Products";
+    public string UploadedImagesPath = "uploads";
 
-
-    public async Task<bool> SaveFileAsync(IBrowserFile file,
-
-    string? existingFileName = null)
+    public async Task<bool> SaveFileAsync(IBrowserFile file, string? existingFileName = null)
     {
-
         try
         {
             // Call the file service to upload the file - returns the unique file name
@@ -517,6 +516,7 @@
         if (selectedFile != null && selectedFile.ContentType.StartsWith("image/"))
         {
             fileName = selectedFile.Name;
+            editProduct.Picture = fileName;
             var buffer = new byte[selectedFile.Size];
             using var stream = selectedFile.OpenReadStream(maxAllowedSize: 1048576); // Limit to 1MB
             await stream.ReadAsync(buffer, 0, buffer.Length);
@@ -524,6 +524,37 @@
             filesize = (int)selectedFile.Size;
             fileDataUrl = $"data:{selectedFile.ContentType};base64,{Convert.ToBase64String(buffer)}";
         }
+    }
+
+    private async Task HandleSelectedProductPicture(InputFileChangeEventArgs e)
+    { 
+        var file = e.File;
+
+        // Validate: Check if it's an image
+        if (!file.ContentType.StartsWith("image/"))
+        {
+            // Optionally show an error message
+            return;
+        }
+
+        // Create uploads folder if it doesn't exist
+        var uploadsPath = Path.Combine(Environment.WebRootPath, "uploads");
+        if (!Directory.Exists(uploadsPath))
+        {
+            Directory.CreateDirectory(uploadsPath);
+        }
+
+        // Generate unique filename
+        // var uniqueFileName = $"{Guid.NewGuid()}_{file.Name}";
+
+        var filePath = Path.Combine(uploadsPath, file.Name);
+
+        // Save the file
+        await using FileStream fs = new(filePath, FileMode.Create);
+        await file.OpenReadStream(maxAllowedSize: 10 * 1024 * 1024) // 10 MB limit
+                  .CopyToAsync(fs);
+
+        editProduct.Picture = file.Name;
     }
 
 }

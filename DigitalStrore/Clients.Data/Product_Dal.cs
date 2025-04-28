@@ -41,7 +41,7 @@ INNER JOIN Table_Company ON {TABLE_NAME}.Company = Table_Company.Id";
         }
         public static async Task Insert(Product curProduct)
         {
-            string sql = "INSERT INTO Table_Product ([Name], [Category], [Company],[Price],[Description],[Pictrue],[Count]) VALUES(@Name, @CategoryId, @CompanyId,@Price,@Description,@Pictrue,@Count)";
+            string sql = "INSERT INTO Table_Product ([Name], [Category], [Company], [Price], [Description], [Picture], [Count]) VALUES(@Name, @CategoryId, @CompanyId, @Price, @Description, @Picture, @Count)";
 
             await Dal.ExecuteSql(sql, new { curProduct.Name, CategoryId = curProduct.Category.Id, CompanyId = curProduct.Company.Id, curProduct.Price, curProduct.Description, curProduct.Picture, curProduct.Count });
 
@@ -57,7 +57,7 @@ INNER JOIN Table_Company ON {TABLE_NAME}.Company = Table_Company.Id";
             [Company] = @CompanyId, 
             [Price] = @Price,
             [Description]=@Description,
-            [Pictrue] = @Pictrue, 
+            [Picture] = @Picture, 
             [Count] = @Count
             WHERE Id = @Id";
 
@@ -163,7 +163,7 @@ INNER JOIN Table_Company ON {TABLE_NAME}.Company = Table_Company.Id";
 //                curProduct.Name,
 //                curProduct.Price,
 //                curProduct.Description,
-//                curProduct.Pictrue,
+//                curProduct.Picture,
 //                CategoryId,
 //                CompanyId
 //            });
@@ -191,7 +191,7 @@ INNER JOIN Table_Company ON {TABLE_NAME}.Company = Table_Company.Id";
 //                curProduct.Name,
 //                curProduct.Price,
 //                curProduct.Description,
-//                curProduct.Pictrue,
+//                curProduct.Picture,
 //                CategoryId,
 //                CompanyId,
 //                Id // Identify which Product to update
