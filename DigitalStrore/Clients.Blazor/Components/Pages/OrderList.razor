@@ -24,7 +24,25 @@
                 {
                     <div class="col">
                         <div class="card h-100">
-                            <img src="Pictures/Brand/Order.png" class="card-img-top" alt="Iphone1">
+                            <div>
+                                @foreach (Product currProduct in OrderToProductListDict[curorder.Id])
+                                {
+                                    <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img src=@GetPicturePath(currProduct.Picture) class="img-fluid rounded-start" alt="...">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">@currProduct.Name</h5>
+                                                    <p class="card-text">@currProduct.Price</p>
+                                                    <p class="card-text"><small class="text-muted">@currProduct.Description</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
                             <div class="card-body">
                                 <h4 class="card-title">@curorder.Client.FirstName @curorder.Client.LastName</h4>
                                 <h5 class="card-subtitle text-muted">@curorder.Date.ToShortDateString()</h5>
@@ -32,8 +50,8 @@
                                 <p class="card-text mt-0"><strong>Note:</strong> @curorder.Note</p>
                             </div>
                             <div class="card-footer d-flex justify-content-between">
-                                <button @onclick="() => EditOrder(curorder)" class="btn btn-outline-primary">✏️ Edit</button>
-                                <button data-bs-toggle="modal" data-bs-target="#deleteModal" class="btn btn-danger" @onclick="() => ConfirmDeleteOrder(curorder)">🗑 Delete</button>
+                                <button @onclick="() => EditOrder(curorder)" class="btn btn-outline-primary btn-warning">✏️ Edit</button>
+                                <button data-bs-toggle="modal" data-bs-target="#deleteModal" class="btn btn-outline-primary btn-danger" @onclick="() => ConfirmDeleteOrder(curorder)">🗑 Delete</button>
                             </div>
                         </div>
                     </div>
@@ -168,6 +186,7 @@
     private List<Product>? productsInBasket = new List<Product>();
     private List<Order>? orders;
     private List<Product>? products;
+    private Dictionary<int, List<Product>?> OrderToProductListDict = new();
     private List<OrderProduct>? orderProducts = new List<OrderProduct>();
     private List<Client>? clients;
 
@@ -186,6 +205,8 @@
     private List<string> moreValidations = new List<string>();
 
     public string CurFolder4Display => $"{FileService.Folder4Display}/Products";
+    public string UploadedImagesPath = "uploads";
+    public string GetPicturePath(string fileName) => UploadedImagesPath + "/" + fileName;
 
     protected override async Task OnInitializedAsync()
     {
@@ -211,6 +232,11 @@
         orders = await OrderService.Read();
         clients = await ClientsService.Read();
         moreValidations = new List<string>();
+
+        foreach (Order currOrder in orders)
+        {
+            OrderToProductListDict.Add(currOrder.Id, await GetProductsFromOrder(currOrder.Id));
+        }
     }
 
     private OrderProduct FindFromProduct(Product curProduct)
@@ -218,16 +244,14 @@
         return orderProducts.FirstOrDefault(orderProduct => orderProduct.Product.Id == curProduct.Id);
     }
 
-    // private List<Product> GetProductsFromOrder(int OrderId )
-    // {
-    //     editOrder = new Order(curOrder.Id, curOrder.Date, curOrder.Client, curOrder.Note);
-    //     selectedClientId = editOrder.Client.Id;
-    //     orderProducts = await OrderService.ReadOrderProducts(editOrder);
+    private async Task<List<Product>> GetProductsFromOrder(int OrderId)
+    {
+        orderProducts = await OrderService.ReadOrderProducts(OrderId);
 
-    //     productsInBasket = orderProducts.Select(op => op.Product).ToList();
-    //     curOrderStage = OrderStage.OrderDetails;
-    //     await InvokeAsync(StateHasChanged);
-    // }
+        productsInBasket = orderProducts.Select(op => op.Product).ToList();
+
+        return productsInBasket;
+    }
 
     private async Task<int> GetOrderPrice(int OrderId)
     {
