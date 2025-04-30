@@ -13,17 +13,15 @@ namespace Clients.Data
         public static async Task<IEnumerable<Product>> GetAll()
         {
             string sql = $@"SELECT {TABLE_NAME}.Id, {TABLE_NAME}.Name, {TABLE_NAME}.Description,
-{TABLE_NAME}.Price, {TABLE_NAME}.[Count],
-Table_Category.Id, Table_Category.Name,
-Table_Company.Id, Table_Company.Name
-FROM {TABLE_NAME}
-INNER JOIN Table_Category ON {TABLE_NAME}.Category = Table_Category.Id
-INNER JOIN Table_Company ON {TABLE_NAME}.Company = Table_Company.Id";
+                            {TABLE_NAME}.Price, {TABLE_NAME}.[Count], {TABLE_NAME}.Picture, 
+                            Table_Category.Id, Table_Category.Name,
+                            Table_Company.Id, Table_Company.Name
+                            FROM {TABLE_NAME}
+                            INNER JOIN Table_Category ON {TABLE_NAME}.Category = Table_Category.Id
+                            INNER JOIN Table_Company ON {TABLE_NAME}.Company = Table_Company.Id";
 
             // Execute the query and retrieve the data - using the Dal class
-            var products = await Dal.QuerySql<Product>(
-
-            sql, new Type[] { typeof(Product), typeof(Category), typeof(Company) },
+            var products = await Dal.QuerySql<Product>(sql, new Type[] { typeof(Product), typeof(Category), typeof(Company) },
             objects =>
             {
                 var product = (Product)objects[0];
