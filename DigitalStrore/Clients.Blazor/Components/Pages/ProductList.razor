@@ -26,8 +26,8 @@
             {
                 <div class="col">
                     <div class="card shadow-sm">
-                        @* <img src="@($"{UploadedImagesPath}/{curproduct.Picture}")" class="card-img-top" alt="Product Image"> *@
-                        <img src="uploads/laptop.png" class="card-img-top" alt="Product Image">
+                        <img src=@GetPicturePath(curproduct.Picture) class="card-img-top" alt="Product Image">
+                        @* <img src="uploads/laptop.png" class="card-img-top" alt="Product Image"> *@
                         <div class="card-body">
                             <h5 class="card-title">@curproduct.Name</h5>
                             <h6 class="card-subtitle mb-2 text-muted">@curproduct.Category.Name</h6>
@@ -160,6 +160,16 @@
                 </div>
             </div>
         }
+
+        @if (isShowPageMessage)
+        {
+            <div class="confirmation-dialog position-fixed top-50 start-50 translate-middle bg-white p-4 border rounded shadow-lg d-flex flex-column gap-4">
+                <h5 class="confirmation-text fw-bold">@pageMessage</h5>
+                <div class="button-group d-flex justify-content-center">
+                    <button class="btn btn-primary" @onclick="ClearMessage">Close</button>
+                </div>
+            </div>
+        }
     </div>
 }
 
@@ -168,6 +178,7 @@
 @code {
     public string CurFolder4Display => $"{FileService.Folder4Display}/Products";
     public string UploadedImagesPath = "uploads";
+    public string GetPicturePath(string fileName) => UploadedImagesPath + "/" + fileName;
 
     public async Task<bool> SaveFileAsync(IBrowserFile file, string? existingFileName = null)
     {
@@ -243,6 +254,10 @@
     private List<string> moreValidations = new List<string>();
 
 
+    private Company GetCompanyById(int id) => companies?.Find((currCompany) => currCompany.Id == id);
+    private Category GetCategoryById(int id) => categories?.Find((currCategory) => currCategory.Id == id);
+
+
     private string btnText = "Add";
 
     protected override async Task OnInitializedAsync()
@@ -287,11 +302,11 @@
             }
             else
             {
-                EditProduct(editProduct);
+                UpdateProduct(editProduct);
                 if (await ProductServices.Update(editProduct))
-                { isShowPageMessage = true; pageMessage = "Client was Updated"; }
+                { isShowPageMessage = true; pageMessage = "Product was Updated"; }
                 else
-                { isShowPageMessage = true; pageMessage = "Error Updating Client"; }
+                { isShowPageMessage = true; pageMessage = "Error Updating Product"; }
                 btnText = "Add";
             }
             editProduct = new Product();
@@ -353,14 +368,25 @@
             editCategory = new Category(-1, "");
         }
     }
+
     private void EditProduct(Product curProduct)
     {
         editProduct = new Product(curProduct.Id, curProduct.Name, curProduct.Category,
-        curProduct.Company, curProduct.Price, curProduct.Description,curProduct.Picture,curProduct.Count);
+        curProduct.Company, curProduct.Price, curProduct.Description,curProduct.Picture, curProduct.Count);
 
         selectedCategoryId = editProduct.Category.Id;
         selectedCompanyId = editProduct.Company.Id;
         btnText = "Update";
+    }
+
+    private void UpdateProduct(Product curProduct)
+    {
+        editProduct = new Product(
+            curProduct.Id, curProduct.Name, 
+            GetCategoryById(selectedCategoryId),
+            GetCompanyById(selectedCompanyId), 
+            curProduct.Price, curProduct.Description, curProduct.Picture, curProduct.Count
+        );
     }
     //מחיקה של מוצר
 
