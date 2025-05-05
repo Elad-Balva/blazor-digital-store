@@ -52,3 +52,22 @@
     .modal-footer button {
         padding: 8px 16px;
     }
+
+.product-card {
+    position: absolute;
+    top: 74%;
+    left: 88%;
+    padding: 2% !important;
+}
+
+.product-quantity {
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    padding: 2% !important;
+    opacity: 0.9;
+}
+
+.product-button-width {
+    min-width: 45%;
+}

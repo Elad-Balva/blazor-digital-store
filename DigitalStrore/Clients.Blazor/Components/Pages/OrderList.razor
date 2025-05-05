@@ -25,9 +25,9 @@
                     <div class="col">
                         <div class="card h-100">
                             <div>
-                                @foreach (Product currProduct in OrderToProductListDict[curorder.Id])
+                                @foreach (Product currProduct in GetProductsHashSet(OrderToProductListDict[curorder.Id]))
                                 {
-                                    <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="card mb-3 bg-light position-relative" style="max-width: 540px;">
                                         <div class="row g-0">
                                             <div class="col-md-4">
                                                 <img src=@GetPicturePath(currProduct.Picture) class="img-fluid rounded-start" alt="...">
@@ -35,10 +35,13 @@
                                             <div class="col-md-8">
                                                 <div class="card-body">
                                                     <h5 class="card-title">@currProduct.Name</h5>
-                                                    <p class="card-text">@currProduct.Price</p>
+                                                    <p class="card-text">@currProduct.Price₪</p>
                                                     <p class="card-text"><small class="text-muted">@currProduct.Description</small></p>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="product-card card p-1 m-0">
+                                            @GetProductCount(OrderToProductListDict[curorder.Id], currProduct)
                                         </div>
                                     </div>
                                 }
@@ -119,7 +122,8 @@
                         OrderProduct curOrderProduct = FindFromProduct(curProduct);
 
                         <div class="col">
-                            <div class="card h-100">
+                            <div class="card h-100 position-relative">
+                                <img src=@GetPicturePath(curProduct.Picture) class="card-img-top" alt="Product Image">
                                 <div class="card-body">
                                     <h5 class="card-title">@curProduct.Name</h5>
                                     <p class="card-text"><strong>Company:</strong> @curProduct.Company.Name</p>
@@ -127,14 +131,19 @@
                                     <p class="card-text"><strong>Price:</strong> @curProduct.Price</p>
                                     <p class="card-text"><strong>In Stock:</strong> @curProduct.Count</p>
 
-                                    @if (IsInBasket(curProduct))
+                                    <div class="d-flex justify-content-around">
+                                        <button class="btn btn-primary product-button-width" @onclick="() => AddProductToOrder(curProduct)">
+                                            @(IsInBasket(curProduct) ? "Add ➕" : "Add To Order")
+                                        </button>
+                                        @if (IsInBasket(curProduct))
+                                        {
+                                            <button class="btn btn-danger product-button-width" @onclick="() => RemoveProductFromOrder(curProduct)">Remove ❌</button>
+                                        }
+                                    </div>
+                                    @if (IsInBasket(curProduct)) 
                                     {
-                                        <button class="btn btn-success">@curOrderProduct.Quantity Added</button>
-                                        <button class="btn btn-danger ms-2" @onclick="() => RemoveProductFromOrder(curProduct)">Remove ❌</button>
+                                        <div class="product-quantity card bg-gradient p-1 m-0">@curOrderProduct.Quantity Added</div>
                                     }
-                                    <button class="btn btn-primary mt-2" @onclick="() => AddProductToOrder(curProduct)">
-                                        @(IsInBasket(curProduct) ? "+1" : "Add To Order")
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -150,6 +159,16 @@
     }
 </EditForm>
 
+@if (isShowPageMessage)
+{
+    <div class="confirmation-dialog position-fixed top-50 start-50 translate-middle bg-white p-4 border rounded shadow-lg d-flex flex-column gap-4">
+        <h5 class="confirmation-text fw-bold">@pageMessage</h5>
+        <div class="button-group d-flex justify-content-center">
+            <button class="btn btn-primary" @onclick="ClearMessage">Close</button>
+        </div>
+    </div>
+}
+
 @if (showConfirmDelete)
 {
     <div class="custom-modal-overlay">
@@ -164,19 +183,6 @@
             <div class="modal-footer">
                 <button class="btn btn-secondary" @onclick="CancelDeleteOrder">No</button>
                 <button class="btn btn-danger" @onclick="DeleteOrder">Yes</button>
-            </div>
-        </div>
-    </div>
-}
-
-
-@if (isShowPageMessage)
-{
-    <div class="confirmation-dialog">
-        <div class="dialog-box">
-            <div class="dialog-header">
-                <h4 class="dialog-title">@pageMessage</h4>
-                <button type="button" class="close-btn" @onclick="ClearMessage">✖</button>
             </div>
         </div>
     </div>
@@ -235,7 +241,10 @@
 
         foreach (Order currOrder in orders)
         {
-            OrderToProductListDict.Add(currOrder.Id, await GetProductsFromOrder(currOrder.Id));
+            if (!OrderToProductListDict.ContainsKey(currOrder.Id))
+            {
+                OrderToProductListDict.Add(currOrder.Id, await GetProductsFromOrder(currOrder.Id));
+            }
         }
     }
 
@@ -253,6 +262,18 @@
         return productsInBasket;
     }
 
+    private List<Product> GetProductsHashSet(List<Product> productList)
+    {
+        HashSet<Product> set = new HashSet<Product>(productList);
+        return set.ToList();
+    }
+
+    private string GetProductCount(List<Product> productList, Product prod)
+    {
+        int count = productList.FindAll((currProd) => currProd.Id == prod.Id).Count;
+        return $"x{count}";
+    }
+
     private async Task<int> GetOrderPrice(int OrderId)
     {
         orderProducts = await OrderService.ReadOrderProducts(OrderId);
@@ -268,6 +289,8 @@
         if (moreValidations.Count > 0)
         {
             await InvokeAsync(StateHasChanged);
+            isShowPageMessage = true;
+            pageMessage = moreValidations.First();
             return;
         }
         editOrder.Client = clients.FirstOrDefault(client => client.Id == selectedClientId);

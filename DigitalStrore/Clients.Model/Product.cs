@@ -37,5 +37,12 @@ namespace Clients.Model
             Count=count;
         }
         public Product() { }
+
+        public override bool Equals(object? obj)
+        {
+            return this.Id == (obj as Product).Id;
+        }
+
+        public override int GetHashCode() => this.Name.GetHashCode();
     }
 }
