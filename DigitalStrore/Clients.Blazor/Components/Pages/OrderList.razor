@@ -53,8 +53,8 @@
                                 <p class="card-text mt-0"><strong>Note:</strong> @curorder.Note</p>
                             </div>
                             <div class="card-footer d-flex justify-content-between">
-                                <button @onclick="() => EditOrder(curorder)" class="btn btn-outline-primary btn-warning">✏️ Edit</button>
-                                <button data-bs-toggle="modal" data-bs-target="#deleteModal" class="btn btn-outline-primary btn-danger" @onclick="() => ConfirmDeleteOrder(curorder)">🗑 Delete</button>
+                                <button @onclick="() => EditOrder(curorder)" class="btn btn-warning">✏️ Edit</button>
+                                <button data-bs-toggle="modal" data-bs-target="#deleteModal" class="btn text-black btn-danger" @onclick="() => ConfirmDeleteOrder(curorder)">🗑 Delete</button>
                             </div>
                         </div>
                     </div>
