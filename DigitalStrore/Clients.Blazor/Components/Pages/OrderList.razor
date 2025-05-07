@@ -41,7 +41,7 @@
                                             </div>
                                         </div>
                                         <div class="product-card card p-1 m-0">
-                                            @GetProductCount(OrderToProductListDict[curorder.Id], currProduct)
+                                            @GetProductDisplayCount(curorder.Id, currProduct)
                                         </div>
                                     </div>
                                 }
@@ -119,7 +119,7 @@
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     @foreach (Product curProduct in products)
                     {
-                        OrderProduct curOrderProduct = FindFromProduct(curProduct);
+                        OrderProduct curOrderProduct = FindOrderProductByOrderId(editOrder.Id);
 
                         <div class="col">
                             <div class="card h-100 position-relative">
@@ -140,7 +140,7 @@
                                             <button class="btn btn-danger product-button-width" @onclick="() => RemoveProductFromOrder(curProduct)">Remove ❌</button>
                                         }
                                     </div>
-                                    @if (IsInBasket(curProduct)) 
+                                    @if (IsInBasket(curProduct) && curOrderProduct != null) 
                                     {
                                         <div class="product-quantity card bg-gradient p-1 m-0">@curOrderProduct.Quantity Added</div>
                                     }
@@ -193,6 +193,7 @@
     private List<Order>? orders;
     private List<Product>? products;
     private Dictionary<int, List<Product>?> OrderToProductListDict = new();
+    private Dictionary<int, List<OrderProduct>?> OrderToOrderProductListDict = new();
     private List<OrderProduct>? orderProducts = new List<OrderProduct>();
     private List<Client>? clients;
 
@@ -245,21 +246,31 @@
             {
                 OrderToProductListDict.Add(currOrder.Id, await GetProductsFromOrder(currOrder.Id));
             }
+            if (!OrderToOrderProductListDict.ContainsKey(currOrder.Id))
+            {
+                OrderToOrderProductListDict.Add(currOrder.Id, await OrderService.ReadOrderProducts(currOrder.Id));
+            }
         }
     }
 
-    private OrderProduct FindFromProduct(Product curProduct)
+    private OrderProduct FindOrderProductByOrderId(int orderId)
     {
-        return orderProducts.FirstOrDefault(orderProduct => orderProduct.Product.Id == curProduct.Id);
+        return orderProducts.FirstOrDefault(orderProduct => orderProduct.Order.Id == orderId);
+    }
+    // One is incorrect
+    private string GetProductDisplayCount(int orderId, Product prod)
+    {
+        int count = OrderToOrderProductListDict[orderId].FirstOrDefault(orderProduct => orderProduct.Product.Id == prod.Id && orderProduct.Order.Id == orderId).Quantity;
+        return $"x{count}";
     }
 
     private async Task<List<Product>> GetProductsFromOrder(int OrderId)
     {
-        orderProducts = await OrderService.ReadOrderProducts(OrderId);
+        List<OrderProduct> newList = await OrderService.ReadOrderProducts(OrderId);
 
-        productsInBasket = orderProducts.Select(op => op.Product).ToList();
+        List<Product> productsInBasketOfOrder = newList.Select(op => op.Product).ToList();
 
-        return productsInBasket;
+        return productsInBasketOfOrder;
     }
 
     private List<Product> GetProductsHashSet(List<Product> productList)
@@ -270,17 +281,17 @@
 
     private string GetProductCount(List<Product> productList, Product prod)
     {
+
         int count = productList.FindAll((currProd) => currProd.Id == prod.Id).Count;
         return $"x{count}";
     }
 
-    private async Task<int> GetOrderPrice(int OrderId)
-    {
-        orderProducts = await OrderService.ReadOrderProducts(OrderId);
+    // private async Task<int> GetOrderPrice(int OrderId)
+    // {
+    //     orderProducts = await OrderService.ReadOrderProducts(OrderId);
 
-        return orderProducts.Sum(orderProduct => orderProduct.Price);
-    }
-
+    //     return orderProducts.Sum(orderProduct => orderProduct.Price);
+    // }
 
     private async void Save()
     {
@@ -295,6 +306,7 @@
         }
         editOrder.Client = clients.FirstOrDefault(client => client.Id == selectedClientId);
 
+        await ProductServices.UpdateProducts(products);
         bool success = editOrder.Id == 0 ? await OrderService.Create(editOrder, orderProducts) : await OrderService.Update(editOrder, orderProducts);
         isShowPageMessage = true;
         pageMessage = success ? (editOrder.Id == 0 ? "✅ Order was Created" : "Order was Updated 🔄") : (editOrder.Id == 0 ? "Error Creating Order" : "Error Updating Order");
