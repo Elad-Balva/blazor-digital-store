@@ -12,7 +12,7 @@ namespace Clients.Data
         const string TABLE_NAME = "Table_Client";
         public static async Task<IEnumerable<Client>> GetAll()
         {
-            string sql = $@"SELECT {TABLE_NAME}.Id, {TABLE_NAME}.FirstName,{TABLE_NAME}.LastName, {TABLE_NAME}.BirthYear,{TABLE_NAME}.Gender,{TABLE_NAME}.Email,Table_City.Id, Table_City.Name FROM {TABLE_NAME} INNER JOIN Table_City ON {TABLE_NAME}.City = Table_City.Id";
+            string sql = $@"SELECT {TABLE_NAME}.Id, {TABLE_NAME}.FirstName,{TABLE_NAME}.LastName, {TABLE_NAME}.BirthYear,{TABLE_NAME}.Telephone,{TABLE_NAME}.Email,Table_City.Id, Table_City.Name FROM {TABLE_NAME} INNER JOIN Table_City ON {TABLE_NAME}.City = Table_City.Id";
 
             // Execute the query and retrieve the data - using the Dal class
             var clients = await Dal.QuerySql<Client>(sql, new Type[] { typeof(Client), typeof(City) },
@@ -30,9 +30,9 @@ namespace Clients.Data
         }
         public static async Task Add(Client curClient)
         {
-            string sql = "INSERT INTO Table_Client (FirstName, LastName, BirthYear,Gender,Email,City) VALUES(@FirstName, @LastName, @BirthYear,@Gender,@Email,@CityId)";
+            string sql = "INSERT INTO Table_Client (FirstName, LastName, BirthYear,Telephone,Email,City) VALUES(@FirstName, @LastName, @BirthYear,@Telephone,@Email,@CityId)";
 
-            await Dal.ExecuteSql(sql, new { curClient.FirstName, curClient.LastName, curClient.BirthYear, curClient.Gender, curClient.Email, CityId = curClient.City.Id });
+            await Dal.ExecuteSql(sql, new { curClient.FirstName, curClient.LastName, curClient.BirthYear, curClient.Telephone, curClient.Email, CityId = curClient.City.Id });
 
         }
 
@@ -44,7 +44,7 @@ namespace Clients.Data
             FirstName = @FirstName, 
             LastName = @LastName, 
             BirthYear = @BirthYear, 
-            Gender = @Gender,Email=@Email , 
+            Telephone = @Telephone,Email=@Email , 
             City = @CityId
         WHERE Id = @Id";
 
@@ -56,7 +56,7 @@ namespace Clients.Data
                 curClient.FirstName,
                 curClient.LastName,
                 curClient.BirthYear,
-                curClient.Gender,
+                curClient.Telephone,
                 curClient.Email,
                 CityId, // Include the City Id
                 curClient.Id // Identify which client to update

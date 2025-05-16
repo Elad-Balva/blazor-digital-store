@@ -162,6 +162,15 @@ namespace Clients.Blazor.Services
             return response.IsSuccessStatusCode;
         }
 
+        public List<Order> Filter(List<Order> list, int year, int month)
+        {
+            //מחזירה את אוסף ההזמנות לשנה וחודש, אם השנה היא מינוס 1 אז מחזירה עבור כל השנים.
+            List<Order> filterdList = new List<Order>();
+            foreach (Order item in list)
+                if ((year == -1 || item.Date.Year == year) && item.Date.Month == month)
+                    filterdList.Add(item);
+            return filterdList;
+        }
     }
 }
 

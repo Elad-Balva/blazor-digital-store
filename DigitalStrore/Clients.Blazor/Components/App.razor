@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@inject NavigationManager Navigation
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,6 +14,7 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 shadow-sm">
         <div class="container-fluid">
             <a class="navbar-brand d-flex justify-content-between align-items-center" href="/">
@@ -24,14 +26,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav d-flex justify-content-between align-items-center">
-                    <NavLink class="nav-link" href="/" ActiveClass="active">
-                        Orders
+                    <NavLink class="nav-link" href="/AboutUs" ActiveClass="active">
+                        About Us
+                    </NavLink>
+                    <NavLink class="nav-link" href="/List" ActiveClass="active">
+                        Clients
                     </NavLink>
                     <NavLink class="nav-link" href="/Products" ActiveClass="active">
                         Products
                     </NavLink>
-                    <NavLink class="nav-link" href="/List" ActiveClass="active">
-                        Clients
+                    <NavLink class="nav-link" href="/OrderList" ActiveClass="active">
+                        Orders
+                    </NavLink>
+                    <NavLink class="nav-link" href="/Reports" ActiveClass="active">
+                        Reports
                     </NavLink>
                 </div>
             </div>
@@ -40,6 +48,10 @@
 
     <Routes />
     <script src="_framework/blazor.web.js"></script>
+
+  
 </body>
 
 </html>
+
+}

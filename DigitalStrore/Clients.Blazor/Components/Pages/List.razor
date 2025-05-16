@@ -24,11 +24,11 @@
                     <input type="text" class="form-control" placeholder="Last Name..." @bind="filterLastName" @oninput="SetLastName" @onkeyup="Filter" />
                 </div>
                 <div class="col-md-3">
-                    <input type="text" class="form-control" placeholder="Gender..." @bind="filterGender" @oninput="SetGender" @onkeyup="Filter" />
+                    <input type="text" class="form-control" placeholder="Telephone..." @bind="filterTelephone" @oninput="SetTelephone" @onkeyup="Filter" />
                 </div>
-                <div class="col-md-3">
+                @* <div class="col-md-3">
                     <input type="number" class="form-control" placeholder="Age..." value="@filterAge.ToString()" @oninput="SetAge" @onkeyup="Filter" />
-                </div>
+                </div> *@
             </div>
             <div class="mt-3">
                 <span class="btn btn-secondary btn-sm" @onclick="ClearFilter">Reset Filters 🗑</span>
@@ -44,7 +44,7 @@
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         <div>
                             <strong>@curclient.FirstName @curclient.LastName</strong><br />
-                            <small>Age: @curclient.Age | Gender: @curclient.Gender</small><br />
+                            <small>Age: @curclient.Age | Telephone: @curclient.Telephone</small><br />
                             <small>Email: @curclient.Email | City: @curclient.City.Name</small>
                         </div>
                         <div>
@@ -76,8 +76,8 @@
                     <InputNumber @bind-Value="editClient.BirthYear" class="@GetFieldClass("BirthYear")" id="birthYear" />
                 </div>
                 <div class="mb-3">
-                    <label for="gender" class="form-label">Gender</label>
-                    <InputText @bind-Value="editClient.Gender" class="@GetFieldClass("Gender")" id="gender" />
+                    <label for="telephone" class="form-label">Telephone</label>
+                    <InputText @bind-Value="editClient.Telephone" class="@GetFieldClass("Telephone")" id="telephone" />
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
@@ -155,7 +155,7 @@
     private Client clientToDelete = new();
     private City CityToDelete = new();
 
-    private string filterFirstName = "", filterLastName = "", filterGender = "";
+    private string filterFirstName = "", filterLastName = "", filterTelephone = "";
     private int filterAge = 0, selectedCityId = -1;
     private bool showConfirmDelete = false, isShowPageMessage = false;
     private string pageMessage = "", btnText = "Add";
@@ -176,7 +176,7 @@
 
     private void EditClient(Client curClient)
     {
-        editClient = new(curClient.Id, curClient.FirstName, curClient.LastName, curClient.BirthYear, curClient.Gender, curClient.Email, curClient.City);
+        editClient = new(curClient.Id, curClient.FirstName, curClient.LastName, curClient.BirthYear, curClient.Telephone, curClient.Email, curClient.City);
         selectedCityId = editClient.City.Id;
         btnText = "Update";
     }
@@ -261,10 +261,10 @@
             fieldErrors["BirthYear"] = true;
         }
 
-        if (string.IsNullOrWhiteSpace(editClient.Gender))
+        if (string.IsNullOrWhiteSpace(editClient.Telephone))
         {
-            missingFields.Add("Gender");
-            fieldErrors["Gender"] = true;
+            missingFields.Add("Telephone");
+            fieldErrors["Telephone"] = true;
         }
 
         if (string.IsNullOrWhiteSpace(editClient.Email))
@@ -289,7 +289,7 @@
 
     private void ClearFilter()
     {
-        filterFirstName = filterLastName = filterGender = "";
+        filterFirstName = filterLastName = filterTelephone;
         filterAge = 0;
         Filter();
     }
@@ -299,8 +299,9 @@
         filteredclients = clients
             .Where(c => c.FirstName.Contains(filterFirstName, StringComparison.OrdinalIgnoreCase)
                      && c.LastName.Contains(filterLastName, StringComparison.OrdinalIgnoreCase)
-                     && c.Gender.Contains(filterGender, StringComparison.OrdinalIgnoreCase)
+                     && c.Telephone.Contains(filterTelephone, StringComparison.OrdinalIgnoreCase)
                      && (filterAge == 0 || c.Age == filterAge))
+
             .ToList();
     }
 
@@ -316,10 +317,10 @@
         filterLastName = e.Value?.ToString();
     }
 
-    private async Task SetGender(ChangeEventArgs e)
+    private async Task SetTelephone(ChangeEventArgs e)
     {
         // Get the current typed value
-        filterGender = e.Value?.ToString();
+        filterTelephone = e.Value?.ToString();
     }
 
     private async Task SetAge(ChangeEventArgs e)

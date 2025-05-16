@@ -31,9 +31,10 @@ namespace Clients.Model
         public string? Email { get; set; }
 
 
-        //[Required(ErrorMessage = "Gender is required")]
-        //[RegularExpression("^(Male|Female|Other|Prefer not to say)$", ErrorMessage = "Gender must be either 'Male', 'Female', 'Other', or 'Prefer not to say'")]
-        public string? Gender { get; set; }
+        //[Required(ErrorMessage = "Telephone is required")]
+        //[Telephone(ErrorMessage = "Invalid telephone format")]
+        //[RegularExpression(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", ErrorMessage = "Telephone must contain a valid domain")]
+        public string? Telephone { get; set; }
 
 
         //[Required(ErrorMessage = "Birth year is required")]
@@ -42,13 +43,13 @@ namespace Clients.Model
         public int BirthYear { get; set; }
         public City City { get; set; } = new City();
         public int Age => DateTime.Now.Year - BirthYear;
-        public Client(int id, string firstname, string lastname, int birthyear,string gender,string email, City city)
+        public Client(int id, string firstname, string lastname, int birthyear,string telephone,string email, City city)
         {
             Id = id;
             FirstName = firstname;
             LastName = lastname;
             BirthYear = birthyear;
-            Gender = gender;
+            Telephone = telephone;
             Email=email;
             City = city;
         }

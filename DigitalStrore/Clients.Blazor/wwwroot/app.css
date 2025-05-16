@@ -1,9 +1,10 @@
 body {
-    background-color: rosybrown;
+    background-color: #222831;
     font-family: 'Arial', sans-serif;
-    color: #333;
+    color: white;
     margin: 0;
     padding: 0;
+    color: white;
 }
 .order-items {
     display: flex;
@@ -33,6 +34,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px 0;
+    color:black;
 }
 
 button {
@@ -54,5 +56,11 @@ button {
         justify-content:center;
         flex-direction:column;
     }
+
+@media print {
+    .hideOnPrint {
+        display: none;
+    }
+}
 
 

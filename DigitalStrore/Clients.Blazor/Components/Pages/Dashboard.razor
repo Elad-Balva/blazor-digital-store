@@ -1,0 +1,23 @@
+﻿@page "/dashboard"
+@using Clients.Blazor.Services
+
+@inject NavigationManager Navigation
+
+<h2>Welcome Boss!</h2>
+<button @onclick="Logout">Logout</button>
+
+@code {
+    protected override void OnInitialized()
+    {
+        if (!AppState.IsBossLoggedIn)
+        {
+            Navigation.NavigateTo("/", true);
+        }
+    }
+
+    private void Logout()
+    {
+        AppState.IsBossLoggedIn = false;
+        Navigation.NavigateTo("/", true);
+    }
+}

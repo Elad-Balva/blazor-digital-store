@@ -1,0 +1,145 @@
+﻿@page "/Reports"
+@using Model
+@using Clients.Blazor.Services
+@inject CompanyService CompanyService
+@inject CategoryService CategoryService
+@inject ProductService ProductServices
+@inject FileService FileService
+@rendermode InteractiveServer
+@using System.ComponentModel.DataAnnotations;
+@using Microsoft.AspNetCore.Components.Forms;
+@inject IWebHostEnvironment Environment
+@inject IJSRuntime JSRuntime
+
+@if (products != null)
+{
+	<table class="table-custom">	
+		<tr>
+			@foreach (Column curColumn in Enum.GetValues(typeof(Column)))
+			{
+				<th @onclick="() => Sort((Column)curColumn)" class="btn btn-warning"> @curColumn </th>
+
+			}
+		</tr>
+		@foreach (Product curProduct in products)
+		{
+			<tr>
+				@foreach (Column curColumn in Enum.GetValues(typeof(Column)))
+				{
+					string curColumnString = Column.GetName(curColumn);
+					<td> @typeof(Product).GetProperty(curColumnString).GetValue(curProduct) </td>
+				}
+			</tr>
+		}
+	</table>
+}
+<style>
+
+/* Basic table styling */
+.table-custom {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	text-align: left;
+}
+
+/* Table header */
+.table-custom th {
+	background-color: #f2f2f2;
+	color: #333;
+	padding: 12px 15px;
+	border: 1px solid #ddd;
+}
+
+/* Table rows */
+.table-custom td {
+	padding: 12px 15px;
+	border: 1px solid #ddd;
+}
+
+/* Hover effect for rows */
+.table-custom tr:hover {
+			background-color: #000000;
+}
+
+/* Zebra striping */
+/* .table-custom tr:nth-child(even) {
+	background-color: #f4f4f4;
+} */
+</style>
+@code {
+
+	private enum Column
+	{
+		Name,
+		// Category,
+		// Company,
+		Price,
+		Count
+	}
+
+	private List<Product>? products;
+
+	private Column currentSortColumn = Column.Name;
+	private bool isAscending = true;
+
+	private async void Sort(Column curColumn)
+	{
+		// Check if the clicked column is the same as the current one; toggle direction
+		if (currentSortColumn == curColumn) isAscending = !isAscending;
+		else
+		{
+			currentSortColumn = curColumn;
+			isAscending = true; // Default to ascending if it's a new column
+		}
+		// Sort products based on column and direction
+		switch (currentSortColumn)
+		{
+			case Column.Name:
+				products = isAscending ? products.OrderBy(p => p.Name).ToList()
+				: products.OrderByDescending(p => p.Name).ToList();
+				break;
+			// case Column.Category:
+			// 	products = isAscending ? products.OrderBy(p => p.Category?.Name).ToList()
+			// 	: products.OrderByDescending(p => p.Category?.Name).ToList();
+			// 	break;
+			// case Column.Company:
+			// 	products = isAscending ? products.OrderBy(p => p.Company?.Name).ToList()
+			// 	: products.OrderByDescending(p => p.Company?.Name).ToList();
+			// 	break;
+			case Column.Price:
+				products = isAscending ? products.OrderBy(p => p.Price).ToList()
+				: products.OrderByDescending(p => p.Price).ToList();
+				break;
+			case Column.Count:
+				products = isAscending ? products.OrderBy(p => p.Count).ToList()
+				: products.OrderByDescending(p => p.Count).ToList();
+				break;
+		}
+
+		await InvokeAsync(StateHasChanged);
+	}
+
+	private bool isHideOnPrint = false;
+	private async Task PrintReport()
+	{
+		isHideOnPrint = true;
+		await InvokeAsync(StateHasChanged);
+		await Task.Delay(100); //pause for the UI to update
+		await JSRuntime.InvokeVoidAsync("window.print");
+		isHideOnPrint = false;
+	}
+
+	protected override async Task OnInitializedAsync()
+	{
+		await SetDefaults();
+	}
+
+	protected async Task SetDefaults()
+	{
+		products = await ProductServices.Read();
+	}
+
+}
