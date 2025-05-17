@@ -26,7 +26,18 @@
 				@foreach (Column curColumn in Enum.GetValues(typeof(Column)))
 				{
 					string curColumnString = Column.GetName(curColumn);
-					<td> @typeof(Product).GetProperty(curColumnString).GetValue(curProduct) </td>
+					if (curColumnString == "Company")
+					{
+						<td> @curProduct.Company.Name </td>
+					}
+					else if (curColumnString == "Category")
+					{
+						<td> @curProduct.Category.Name </td>
+					}
+					else
+					{
+						<td> @typeof(Product).GetProperty(curColumnString).GetValue(curProduct) </td>
+					}
 				}
 			</tr>
 		}
@@ -73,8 +84,8 @@
 	private enum Column
 	{
 		Name,
-		// Category,
-		// Company,
+		Category,
+		Company,
 		Price,
 		Count
 	}
