@@ -17,8 +17,7 @@
 		<tr>
 			@foreach (Column curColumn in Enum.GetValues(typeof(Column)))
 			{
-				<th @onclick="() => Sort((Column)curColumn)" class="btn btn-warning"> @curColumn </th>
-
+				<th @onclick="() => Sort((Column)curColumn)" class="table-hover"> @curColumn </th>
 			}
 		</tr>
 		@foreach (Product curProduct in products)
